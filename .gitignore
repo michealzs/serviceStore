@@ -2,6 +2,7 @@
 *.exe
 *.o
 *.so
+*.DS_Store
 
 # Ignore build directories
 /.github/
