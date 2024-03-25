@@ -1,10 +1,10 @@
 
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, TemplateView, DeleteView
-
+from .models import HomeModel
 
 class HomeView(ListView):
     model = HomeModel
-    template_name = 'home.html'
+    template_name = 'index.html'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -18,9 +18,10 @@ class HomeView(ListView):
             #print('pure Visitor ID ==>', self.request.session['visitor_id'])
         else:
             print("<== User is not Authenticated ==>")
-        context['featured_products'] = Product.objects.featured()
         return context
 
+    """
     def dispatch(self, request, *args, **kwargs):
         sessione(self.request)
         return super().dispatch(request, *args, **kwargs)
+    """
