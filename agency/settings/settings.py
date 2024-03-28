@@ -10,23 +10,19 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 import os
-from os import getenv
-
 from pathlib import Path
 from dotenv import load_dotenv, find_dotenv
+from .env import KEY
 
-load_dotenv(find_dotenv())
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = getenv("SECRET_KEY") #"django-insecure-akqyu4!)bqts=w5%zea#%#v(^c7qg7her$%o#85!exa-*d85fm"
+SECRET_KEY = KEY #"django-insecure-akqyu4!)bqts=w5%zea#%#v(^c7qg7her$%o#85!exa-*d85fm"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -126,9 +122,10 @@ STATICFILES_DIRS = [
 ]
 # BASE_DIR / "static"
 # FRONT_END_DIR / "dist" / "assets",
-
-STATIC_URL = "/templates/assets/" # "static/"
-
+STATIC_ROOT = os.path.join(BASE_DIR, '/templates/assets/')
+STATIC_URL = "/templates/assets/"
+MEDIA_ROOT = os.path.join(BASE_DIR, '/templates/assets/images')
+STATIC_URL = "/templates/assets/images"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

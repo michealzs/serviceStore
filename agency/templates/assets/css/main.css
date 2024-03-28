@@ -866,6 +866,7 @@ START: Theme Header CSS
 .tj-header-area .logo-area {
   max-width: 195px;
   width: 100%;
+  height: auto;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-header-area .logo-area {
@@ -876,7 +877,8 @@ START: Theme Header CSS
   display: inline-block;
 }
 .tj-header-area .logo-area a img {
-  width: 100%;
+  width: 50%;
+  height: auto;
 }
 .tj-header-area.header-style-two.sticky {
   padding: 0;
@@ -1263,7 +1265,7 @@ START: Theme Hero CSS
   position: relative;
   padding-top: 210px;
   padding-bottom: 90px;
-  background-image: url(../images/banner-bg/banner.jpg);
+  background-image: url(../banner-bg/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3975,7 +3977,7 @@ START: Theme Counter CSS
   border-right: none;
 }
 .counter-content-area .counter-item .tj-count {
-  font-size: 80px;
+  font-size: 50px;
   font-family: var(--tj-ff-heading);
   font-weight: var(--tj-fw-bold);
   -webkit-text-fill-color: transparent;
