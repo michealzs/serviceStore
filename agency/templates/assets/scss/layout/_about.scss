@@ -99,7 +99,7 @@ START: Theme About CSS
          position: relative;
          z-index: 3;
          max-width: 120px;
-         animation: rotateImg 10s infinite linear;
+         animation: rotaImg 10s infinite linear;
          @media #{$sm} {
             max-width: 100px;
          }
@@ -691,7 +691,7 @@ START: Theme About CSS
          top: 10%;
          left: 10%;
          transform: translate(-50%, -50%);
-         animation: rotateImg 10s infinite linear;
+         animation: rotaImg 10s infinite linear;
          @media #{$xs} {
             top: 11.5%;
             left: 11.5%;
@@ -743,7 +743,7 @@ START: Theme About CSS
             font-size: 40px;
             position: relative;
             top: 3px;
-            transform: rotate(0);
+            transform: rota(0);
          }
          @media #{$lg, $md, $sm, $xs} {
             margin-right: 10px;
@@ -792,7 +792,7 @@ START: Theme About CSS
          position: relative;
          z-index: 3;
          display: inline-block;
-         transform: rotate(0);
+         transform: rota(0);
          @media #{$xs} {
             margin-bottom: 25px;
          }
@@ -842,7 +842,7 @@ START: Theme About CSS
       }
       &:hover {
          .about-icon {
-            transform: rotate(360deg);
+            transform: rota(360deg);
          }
       }
    }

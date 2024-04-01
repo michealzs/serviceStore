@@ -122,7 +122,7 @@ START: Theme Service CSS
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      transform: rotate(0);
+      transform: rota(0);
       i {
          position: absolute;
          left: 50%;
@@ -132,7 +132,7 @@ START: Theme Service CSS
          font-size: 45px;
          line-height: 1;
          transition: all 0.5s ease;
-         transform: translate(-50%, -50%) rotate(0);
+         transform: translate(-50%, -50%) rota(0);
       }
 
       .image-1,
@@ -184,7 +184,7 @@ START: Theme Service CSS
       border-color: transparent;
       .service-icon {
          i {
-            transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rota(360deg);
          }
 
          .image-2 {
@@ -271,7 +271,7 @@ START: Theme Service CSS
       .service-wrapper {
          position: absolute;
          top: -15px;
-         transform: rotate(-10deg);
+         transform: rota(-10deg);
          right: 60px;
          opacity: 0;
          visibility: hidden;
@@ -364,7 +364,7 @@ START: Theme Service CSS
       .service-arrow {
          font-size: 50px;
          color: var(--tj-color-common-black);
-         transform: rotate(-45deg);
+         transform: rota(-45deg);
          transition: 0.4s;
          i {
             background: linear-gradient(90deg, var(--tj-color-theme-secondary) 0%, var(--tj-color-theme-primary) 100%);
@@ -400,7 +400,7 @@ START: Theme Service CSS
          visibility: visible;
       }
       .service-arrow {
-         transform: rotate(0deg);
+         transform: rota(0deg);
          i {
             color: transparent;
          }
@@ -509,7 +509,7 @@ START: Theme Service CSS
       color: var(--tj-color-common-black);
       font-size: 30px;
       margin-bottom: 20px;
-      transform: rotate(0);
+      transform: rota(0);
    }
    .title {
       margin-bottom: 20px;
@@ -581,7 +581,7 @@ START: Theme Service CSS
    &:hover {
       border-color: var(--tj-color-light-3);
       .service-icon {
-         transform: rotate(360deg);
+         transform: rota(360deg);
       }
       &::before {
          opacity: 1;
@@ -693,7 +693,7 @@ START: Theme Service CSS
       position: absolute;
       top: -40px;
       left: 50%;
-      transform: translateX(-50%) rotate(0deg);
+      transform: translateX(-50%) rota(0deg);
       width: 90px;
       height: 90px;
       color: var(--tj-color-grey-11);
@@ -747,7 +747,7 @@ START: Theme Service CSS
          background-color: var(--tj-color-common-white);
       }
       .service-icon {
-         transform: translateX(-50%) rotate(360deg);
+         transform: translateX(-50%) rota(360deg);
          &::before {
             opacity: 1;
             visibility: visible;

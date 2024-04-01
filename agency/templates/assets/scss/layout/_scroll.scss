@@ -64,14 +64,14 @@ START: Theme Scroll CSS
     75%,
     100% {
         opacity: 0;
-        -webkit-transform: rotateY(-90deg);
-        transform: rotateY(-90deg);
+        -webkit-transform: rotaY(-90deg);
+        transform: rotaY(-90deg);
     }
     25%,
     50% {
         opacity: 1;
-        -webkit-transform: rotateY(0deg);
-        transform: rotateY(0deg);
+        -webkit-transform: rotaY(0deg);
+        transform: rotaY(0deg);
     }
 }
 @keyframes letters-loading {
@@ -79,14 +79,14 @@ START: Theme Scroll CSS
     75%,
     100% {
         opacity: 0;
-        -webkit-transform: rotateY(-90deg);
-        transform: rotateY(-90deg);
+        -webkit-transform: rotaY(-90deg);
+        transform: rotaY(-90deg);
     }
     25%,
     50% {
         opacity: 1;
-        -webkit-transform: rotateY(0deg);
-        transform: rotateY(0deg);
+        -webkit-transform: rotaY(0deg);
+        transform: rotaY(0deg);
     }
 }
 /* !END: Theme Scroll CSS */

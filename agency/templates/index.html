@@ -14,7 +14,7 @@
       <link rel="apple-touch-icon" href="fav.svg" />
       <link rel="shortcut icon" type="image/x-icon" href="fav.svg" />
 
-      <!-- CSS here
+<!-- CSS here      
       <link href="{% static 'css/animate.min.css' %}" rel="stylesheet">
       <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
       <link href="{% static 'css/flaticon_webency.css' %}" rel="stylesheet">
@@ -24,18 +24,18 @@
       <link href="{% static 'css/meanmenu.css' %}" rel="stylesheet">
       <link href="{% static 'css/odometer.min.css' %}" rel="stylesheet">
       <link href="{% static 'css/swiper.min.css' %}" rel="stylesheet">
-      -->
+-->      
 
-      <link rel="stylesheet" href="bootstrap.min.css" />
-      <link rel="stylesheet" href="font-awesome-pro.min.css" />
-      <link rel="stylesheet" href="animate.min.css" />
-      <link rel="stylesheet" href="flaticon_webency.css" />
-      <link rel="stylesheet" href="odometer.min.css" />
-      <link rel="stylesheet" href="magnific-popup.css" />
-      <link rel="stylesheet" href="swiper.min.css" />
-      <link rel="stylesheet" href="meanmenu.css" />
-      <link rel="stylesheet" href="main.css" />
-
+      <link rel="stylesheet" href="templates/assets/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="templates/assets/css/font-awesome-pro.min.css" />
+      <link rel="stylesheet" href="templates/assets/css/animate.min.css" />
+      <link rel="stylesheet" href="templates/assets/css/flaticon_webency.css" />
+      <link rel="stylesheet" href="templates/assets/css/odometer.min.css" />
+      <link rel="stylesheet" href="templates/assets/css/magnific-popup.css" />
+      <link rel="stylesheet" href="templates/assets/css/swiper.min.css" />
+      <link rel="stylesheet" href="templates/assets/css/meanmenu.css" />
+      <link rel="stylesheet" href="templates/assets/css/main.css" />
+      
    </head>
 
    <body>
@@ -64,7 +64,7 @@
       <div class="tj-offcanvas-area d-lg-none">
          <div class="tj-offcanvas-header d-flex align-items-center justify-content-between">
             <div class="logo-area text-center">
-               <a href="index.html"><img src="logo/ossean-logo.png" alt="Logo" /></a>
+               <a href="index.html"><img src="templates/assets/images/logo/ossean-logo.png" alt="Logo" /></a>
             </div>
             <div class="offcanvas-icon">
                <a id="canva_close" href="#">
@@ -129,7 +129,7 @@
                   <div class="header-content-area">
                      <div class="logo-area">
                         <div class="logo">
-                           <a href="index.html"><img src="logo/ossean-logo.png" alt="Logo" /></a>
+                           <a href="index.html"><img src="templates/assets/images/logo/ossean-logo.png" alt="Logo" /></a>
                         </div>
                      </div>
                      <div class="tj-menu-area d-lg-block d-none" id="main-menu">
@@ -139,7 +139,7 @@
                                  <a href="index.html">Home</a>
                               </li>
                               <li>
-                                 <a href="about-us.html">About Us</a>
+                                 <a href="{% url 'main:about' %}">About Us</a>
                               </li>
                               <li class="has-dropdown">
                                  <a href="service.html">Services</a>
@@ -197,34 +197,30 @@
                                  We are an experienced software company building innovative and affordable software solutions for every industry. With each line of code dreams become reality.
                               </p>
                            </div>
-
-                           <div class="hero-button d-flex wow fadeInUp" data-wow-delay=".9s">
-                              <a class="tj-primary-btn" href="contact.html"> Get Started</a>
-                           </div>
                         </div>
                      </div>
                   </div>
                   <div class="col-lg-5">
                      <div class="hero-image-group wow fadeInRight" data-wow-delay="1s">
                         <div class="group-image1 shake-y">
-                           <img class="image" src="hero/hero-1.png" alt="Image" />
+                           <img class="image" src="templates/assets/images/hero/hero-1.png" alt="Image" />
                         </div>
-                        <div class="group-image2 pulse">
-                           <img src="hero/hero-2.png" alt="Image" />
-                        </div>
-                        <img class="group-image5 pulse" src="shape/shape-7.svg" alt="Image" />
-                        <img class="group-image6 pulse" src="shape/shape-8.svg" alt="Image" />
                      </div>
                   </div>
                </div>
             </div>
+            <!--
             <div class="hero-shape">
-               <img src="shape/shape-1.svg" alt="Shape" />
+               <img src="templates/assets/images/shape/shape-1.png" alt="Shape" />
+            </div>
+            -->
+            <div class="hero-button d-flex wow fadeInUp" data-wow-delay=".9s">
+               <a class="tj-primary-btn" href="contact.html"> Get a Quote</a>
             </div>
             <div class="hero-scroll">
-               <img src="icon/scroll-bg.svg" alt="Bg" />
+               <img src="templates/assets/images/icon/scroll-bg.svg" alt="Bg" />
                <div class="scroll-icon jump">
-                  <a href="#scroll-bottom"><img src="icon/scroll.svg" alt="Icon" /></a>
+                  <a href="#scroll-bottom"><img src="templates/assets/images/icon/scroll.svg" alt="Icon" /></a>
                </div>
             </div>
          </section>
@@ -240,8 +236,7 @@
                         <!--<h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Service We Provide</h2>-->
                         <div class="desc wow fadeInUp" data-wow-delay=".5s">
                            <p>
-                              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                              It was popularised in the 1960s with the release
+                            tailored to meet all your technological needs for innovation.
                            </p>
                         </div>
                      </div>
@@ -253,8 +248,8 @@
                         <div class="service-inner">
                            <div class="service-icon">
                               <i class="flaticon-design"></i>
-                              <img class="image-1" src="shape/service-image.svg" alt="Shape" />
-                              <img class="image-2" src="shape/service-image1.svg" alt="Shape" />
+                              <img class="image-1" src="templates/assets/images/shape/service-image.svg" alt="Shape" />
+                              <img class="image-2" src="templates/assets/images/shape/service-image1.svg" alt="Shape" />
                            </div>
                            <div class="service-content">
                               <h4 class="title-link">
@@ -272,8 +267,8 @@
                         <div class="service-inner">
                            <div class="service-icon">
                               <i class="flaticon-graphic-design-1"></i>
-                              <img class="image-1" src="shape/service-image.svg" alt="Shape" />
-                              <img class="image-2" src="shape/service-image1.svg" alt="Shape" />
+                              <img class="image-1" src="templates/assets/images/shape/service-image.svg" alt="Shape" />
+                              <img class="image-2" src="templates/assets/images/shape/service-image1.svg" alt="Shape" />
                            </div>
                            <div class="service-content">
                               <h4 class="title-link">
@@ -292,8 +287,8 @@
                         <div class="service-inner">
                            <div class="service-icon">
                               <i class="flaticon-ui-design"></i>
-                              <img class="image-1" src="shape/service-image.svg" alt="Shape" />
-                              <img class="image-2" src="shape/service-image1.svg" alt="Shape" />
+                              <img class="image-1" src="templates/assets/images/shape/service-image.svg" alt="Shape" />
+                              <img class="image-2" src="templates/assets/images/shape/service-image1.svg" alt="Shape" />
                            </div>
                            <div class="service-image"></div>
                            <div class="service-content">
@@ -312,8 +307,8 @@
                         <div class="service-inner">
                            <div class="service-icon">
                               <i class="flaticon-megaphone"></i>
-                              <img class="image-1" src="shape/service-image.svg" alt="Shape" />
-                              <img class="image-2" src="shape/service-image1.svg" alt="Shape" />
+                              <img class="image-1" src="templates/assets/images/shape/service-image.svg" alt="Shape" />
+                              <img class="image-2" src="templates/assets/images/shape/service-image1.svg" alt="Shape" />
                            </div>
                            <div class="service-content">
                               <h4 class="title-link">
@@ -334,19 +329,19 @@
             </div>
             <div class="service-section-shape">
                <div class="service-bg-shape pulse">
-                  <img src="shape/shape-14.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-14.svg" alt="Shape" />
                </div>
                <div class="service-bg-shape1">
-                  <img src="shape/shape-15.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-15.svg" alt="Shape" />
                </div>
                <div class="service-bg-shape2">
-                  <img src="shape/shape-14.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-14.svg" alt="Shape" />
                </div>
                <div class="service-bg-shape3 pulse">
-                  <img src="shape/shape-15.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-15.svg" alt="Shape" />
                </div>
                <div class="service-bg-shape4 pulse">
-                  <img src="shape/shape-16.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-16.svg" alt="Shape" />
                </div>
             </div>
          </section>
@@ -360,25 +355,22 @@
                   <div class="col-xl-6 col-lg-12">
                      <div class="about-image-group wow fadeInLeft" data-wow-delay="1s">
                         <div class="about-image1 pulse">
-                           <img src="about/about-1.png" alt="Image" />
+                           <img src="templates/assets/images/about/about-1.png" alt="Image" />
                         </div>
                         <div class="about-image2 pulse">
-                           <img src="about/about-2.png" alt="Image" />
+                           <img src="templates/assets/images/about/about-2.png" alt="Image" />
                         </div>
                         <div class="about-image3 pulse">
-                           <img src="about/about-3.png" alt="Image" />
-                        </div>
-                        <div class="about-image4 pulse">
-                           <img src="about/about-4.png" alt="Image" />
+                           <img src="templates/assets/images/about/about-3.png" alt="Image" />
                         </div>
                         <div class="about-shape1 shake-y">
-                           <img src="shape/shape-9.svg" alt="Shape" />
+                           <img src="templates/assets/images/shape/shape-9.svg" alt="Shape" />
                         </div>
                         <div class="about-shape2 pulse">
-                           <img src="shape/shape-10.svg" alt="Shape" />
+                           <img src="templates/assets/images/shape/shape-10.svg" alt="Shape" />
                         </div>
                         <div class="about-shape3 pulse">
-                           <img src="shape/shape-13.svg" alt="Shape" />
+                           <img src="templates/assets/images/shape/shape-13.svg" alt="Shape" />
                         </div>
                      </div>
                   </div>
@@ -389,14 +381,11 @@
                            <h2 class="sec-title wow fadeInUp" data-wow-delay=".5s">Making Your Business More Unique</h2>
                            <div class="desc wow fadeInUp" data-wow-delay=".7s">
                               <p>
-                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-                                 form, by injected humour, or randomised words which don't look even slightly believable.
+                                 At our company, we specialize in crafting innovative solutions tailored to meet your unique needs. With a focus on clarity and precision, 
+                                 we define clear project goals and conduct research to develop your project effectively. 
                               </p>
-                              <p>
-                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-                                 form,
-                              </p>
-                              <p>by injected humour, or randomised words which don't look even slightly believable.</p>
+                              <p>We prioritize technical efficiency and communication throughout the development process, 
+                                 guaranteeing the successful delivery of value-driven apps that exceed expectations.</p>
                            </div>
                            <div class="about-button d-flex wow fadeInUp" data-wow-delay=".9s">
                               <a href="about-us.html" class="tj-secondary-btn btn-border"><span>Read More</span></a>
@@ -405,9 +394,6 @@
                      </div>
                   </div>
                </div>
-            </div>
-            <div class="about-section-shape pulse">
-               <img src="shape/shape-37.svg" alt="Shape" />
             </div>
          </section>
          <!-- end: About Area -->
@@ -420,20 +406,7 @@
                   <div class="col-lg-12">
                      <div class="counter-content-area">
                         <div class="counter-item">
-                           <div class="tj-count">Project Complete</div>
-                           <span class="sub-title">------</span>
-                        </div>
-                        <div class="counter-item">
-                           <div class="tj-count">Quality Team Member</div>
-                           <span class="sub-title">------</span>
-                        </div>
-                        <div class="counter-item">
-                           <div class="tj-count">Awards Winning</div>
-                           <span class="sub-title">------</span>
-                        </div>
-                        <div class="counter-item">
-                           <div class="tj-count"><span class="odometer" data-count="5">0</span>+</div>
-                           <span class="sub-title">Years Of Experience</span>
+                           <div class="tj-count"><span class="odometer" data-count="5">0</span>+ Years Of Experience</div>
                         </div>
                      </div>
                   </div>
@@ -441,17 +414,17 @@
             </div>
             <div class="counter-section-shape">
                <div class="counter_shape">
-                  <img src="shape/counter-shape.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/counter-shape.svg" alt="Shape" />
                </div>
                <div class="counter_shape1">
-                  <img src="shape/counter-shape1.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/counter-shape1.svg" alt="Shape" />
                </div>
             </div>
          </section>
          <!-- end: Counter Area -->
 
 
-         <!-- Start: Portfolio Area -->
+         <!-- Start: Portfolio Area 
          <section class="tj-portfolio-section inc-colum default-padding">
             <div class="container">
                <div class="row align-items-end portfolio-header">
@@ -480,7 +453,7 @@
                               <div class="portfolio-single-item marketing finance" style="position: absolute; left: 0%; top: 352px">
                                  <div class="portfolio-single">
                                     <div class="portfolio-image">
-                                       <a href="portfolio-details.html"><img src="portfolio/portfolio-1.jpg" alt="Image" /></a>
+                                       <a href="portfolio-details.html"><img src="templates/assets/images/portfolio/portfolio-1.jpg" alt="Image" /></a>
                                     </div>
                                     <div class="portfolio-content">
                                        <h3 class="title-link">
@@ -493,7 +466,7 @@
                               <div class="portfolio-single-item development finance" style="position: absolute; left: 66.5833%; top: 0px">
                                  <div class="portfolio-single">
                                     <div class="portfolio-image">
-                                       <a href="portfolio-details.html"><img src="portfolio/portfolio-2.jpg" alt="Image" /></a>
+                                       <a href="portfolio-details.html"><img src="templates/assets/images/portfolio/portfolio-2.jpg" alt="Image" /></a>
                                     </div>
                                     <div class="portfolio-content">
                                        <h3 class="title-link">
@@ -506,7 +479,7 @@
                               <div class="portfolio-single-item capital development" style="position: absolute; left: 66.5833%; top: 352px">
                                  <div class="portfolio-single">
                                     <div class="portfolio-image">
-                                       <a href="portfolio-details.html"><img src="portfolio/portfolio-4.jpg" alt="Image" /></a>
+                                       <a href="portfolio-details.html"><img src="templates/assets/images/portfolio/portfolio-4.jpg" alt="Image" /></a>
                                     </div>
                                     <div class="portfolio-content">
                                        <h3 class="title-link">
@@ -519,7 +492,7 @@
                               <div class="portfolio-single-item capital seo" style="position: absolute; left: 33.25%; top: 459px">
                                  <div class="portfolio-single">
                                     <div class="portfolio-image">
-                                       <a href="portfolio-details.html"><img src="portfolio/portfolio-3.jpg" alt="Image" /></a>
+                                       <a href="portfolio-details.html"><img src="templates/assets/images/portfolio/portfolio-3.jpg" alt="Image" /></a>
                                     </div>
                                     <div class="portfolio-content">
                                        <h3 class="title-link">
@@ -537,28 +510,29 @@
             </div>
             <div class="portfolio-section-shape">
                <div class="portfolio-bg-shape">
-                  <img src="shape/portfolio-shape.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/portfolio-shape.svg" alt="Shape" />
                </div>
                <div class="portfolio-bg-shape1">
-                  <img src="shape/portfolio-shape1.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/portfolio-shape1.svg" alt="Shape" />
                </div>
                <div class="portfolio-bg-shape2 shake-y">
-                  <img src="shape/shape-19.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-19.svg" alt="Shape" />
                </div>
                <div class="portfolio-bg-shape3 pulse">
-                  <img src="shape/shape-20.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-20.svg" alt="Shape" />
                </div>
                <div class="portfolio-bg-shape4 shake-y">
-                  <img src="shape/shape-19.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-19.svg" alt="Shape" />
                </div>
                <div class="portfolio-bg-shape5 pulse">
-                  <img src="shape/shape-23.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-23.svg" alt="Shape" />
                </div>
                <div class="portfolio-bg-shape6 pulse">
-                  <img src="shape/shape-38.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-38.svg" alt="Shape" />
                </div>
             </div>
          </section>
+         -->
          <!-- end: Portfolio Area -->
 
          <!-- start: FAQ Area -->
@@ -568,11 +542,10 @@
                   <div class="col-lg-12">
                      <div class="tj-sec-heading">
                         <span class="sub-title wow fadeInUp" data-wow-delay=".3s">F,A,Q</span>
-                        <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Our Expert Answers</h2>
                         <div class="desc wow fadeInUp" data-wow-delay=".5s">
                            <p>
-                              All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
-                              generator on the Internet. It uses a dictionary of over 200 Latin words,
+                              Looking for answers to your tech questions ? Our FAQ section is designed to 
+                              provide you with quick, clear insights into our processes, services, and how we can help bring your digital vision to life. 
                            </p>
                         </div>
                      </div>
@@ -692,7 +665,7 @@
                            </div>
                         </div>
                         <div class="accordion-shape">
-                           <img src="shape/shape-26.svg" alt="Shape" />
+                           <img src="templates/assets/images/shape/shape-26.svg" alt="Shape" />
                         </div>
                      </div>
                   </div>
@@ -809,7 +782,7 @@
                            </div>
                         </div>
                         <div class="accordion-shape">
-                           <img src="shape/shape-26.svg" alt="Shape" />
+                           <img src="templates/assets/images/shape/shape-26.svg" alt="Shape" />
                         </div>
                      </div>
                   </div>
@@ -817,7 +790,7 @@
             </div>
             <div class="faq-section-shape">
                <div class="faq-bg-shape pulse">
-                  <img src="shape/faq-shape.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/faq-shape.svg" alt="Shape" />
                </div>
             </div>
          </section>
@@ -832,18 +805,18 @@
                      <div class="contact-form-area">
                         <div class="contact-left-content">
                            <div class="tj-sec-heading">
-                              <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Get In touch</span>
-                              <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Have any Project Plan In your Mind?</h2>
+                              <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Contact Us</span>
+                              <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Need Help With a Project?</h2>
                               <div class="desc wow fadeInUp" data-wow-delay=".5s">
                                  <p>
-                                    All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the
-                                    first true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                                    We provide comprehensive services, starting with defining clear goals and conducting thorough market research to ensure effective positioning. Our team details key features, creates user personas, 
+                                    and designs UI guidelines to inform user-centered development. With a focus on technical efficiency and clear communication, we ensure successful delivery of value-driven apps.
                                  </p>
                               </div>
                            </div>
                            <div class="comntact-list wow fadeInUp" data-wow-delay=".6s">
                               <div class="contact-icon">
-                                 <img src="icon/phone.svg" alt="Icon" />
+                                 <img src="templates/assets/images/icon/phone.svg" alt="Icon" />
                               </div>
                               <div class="contact-header">
                                  <span class="d-block">For urgent help</span>
@@ -852,7 +825,7 @@
                            </div>
                            <div class="comntact-list wow fadeInUp" data-wow-delay=".7s">
                               <div class="contact-icon">
-                                 <img src="icon/mail.svg" alt="Icon" />
+                                 <img src="templates/assets/images/icon/mail.svg" alt="Icon" />
                               </div>
                               <div class="contact-header">
                                  <span class="d-block">Mail us 24/7</span>
@@ -883,16 +856,16 @@
             </div>
             <div class="contact-section-shape">
                <div class="contact-bg-shape shake-y">
-                  <img src="shape/shape-31.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-31.svg" alt="Shape" />
                </div>
                <div class="contact-bg-shape1 pulse">
-                  <img src="shape/shape-32.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-32.svg" alt="Shape" />
                </div>
                <div class="contact-bg-shape2 pulse">
-                  <img src="shape/shape-33.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-33.svg" alt="Shape" />
                </div>
                <div class="contact-bg-shape3 shake-y">
-                  <img src="shape/shape-34.svg" alt="Shape" />
+                  <img src="templates/assets/images/shape/shape-34.svg" alt="Shape" />
                </div>
             </div>
          </section>
@@ -947,12 +920,13 @@
                         <div class="footer-content-info">
                            <div class="footer-logo">
                               <a href="index.html">
-                                 <img src="logo/footer-logo.png" alt="Logo" />
+                                 <img src="templates/assets/images/logo/ossean-logo.png" alt="Logo" />
                               </a>
                            </div>
                            <p>
                               We craft products to meet your unique business needs and goals. Whether you’re starting from scratch or looking to upgrade existing software.
                            </p>
+                           
                            <div class="footer-share">
                               <ul class="dot-style">
                                  <li>
@@ -978,6 +952,9 @@
                            </div>
                         </div>
                      </div>
+                     <div class="copyright-left-content">
+                        <p>Copyright © 2023 <a href="#" target="_blank"> ossean. </a> All Rights Reserved.</p>
+                     </div>
                   </div>
                   <div class="col-lg-2 col-md-6 col-sm-6">
                      <div class="footer-widget footer1-col-2">
@@ -1001,8 +978,8 @@
                         <div class="widget_nav_menu">
                            <div class="footer-menu">
                               <ul>
-                                 <li><a href="#">Blog Grid</a></li>
-                                 <li><a href="#">Blog Standard</a></li>
+                                 <li><a href="#">Privacy</a></li>
+                                 <li><a href="#">Faq</a></li>
                                  <li><a href="#">Blog Details</a></li>
                                  <li><a href="#">Our Services</a></li>
                               </ul>
@@ -1019,7 +996,6 @@
                                  <li><a href="#">About us</a></li>
                                  <li><a href="#">Services</a></li>
                                  <li><a href="#">Contact Us</a></li>
-                                 <li><a href="#">Out Team</a></li>
                                  <li><a href="#">Pricing</a></li>
                               </ul>
                            </div>
@@ -1061,13 +1037,12 @@
                   <div class="col-lg-12">
                      <div class="copyright-content-area">
                         <div class="copyright-left-content">
-                           <p>Copyright © 2023 <a href="#" target="_blank"> ossean. </a> All Rights Reserved.</p>
+                           <!--<p>Copyright © 2023 <a href="#" target="_blank"> ossean. </a> All Rights Reserved.</p>-->
                         </div>
                         <div class="copyright-menu">
                            <ul>
-                              <li><a href="#">Setting & Privacy</a></li>
-                              <li><a href="#">FAQ</a></li>
-                              <li><a href="#">Support</a></li>
+                              <!--<li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">FAQ</a></li>-->
                            </ul>
                         </div>
                      </div>
@@ -1077,16 +1052,16 @@
          </div>
          <div class="footer-section-shape">
             <div class="footer-bg-shape">
-               <img src="banner-bg/footer-bg-shape.svg" alt="Shape" />
+               <img src="templates/assets/images/banner-bg/footer-bg-shape.svg" alt="Shape" />
             </div>
             <div class="footer-bg-shape1">
-               <img src="banner-bg/footer-bg-shape1.svg" alt="Shape" />
+               <img src="templates/assets/images/banner-bg/footer-bg-shape1.svg" alt="Shape" />
             </div>
             <div class="footer-bg-shape2 shake-y">
-               <img src="shape/shape-35.svg" alt="Shape" />
+               <img src="templates/assets/images/shape/shape-35.svg" alt="Shape" />
             </div>
             <div class="footer-bg-shape3 pulse">
-               <img src="shape/shape-36.svg" alt="Shape" />
+               <img src="templates/assets/images/shape/shape-36.svg" alt="Shape" />
             </div>
          </div>
       </footer>
@@ -1118,17 +1093,18 @@
       <!-- end: Scroll Area -->
 
       <!-- JS here -->
-      <script src="jquery.min.js"></script>
-      <script src="bootstrap.bundle.min.js"></script>
-      <script src="meanmenu.js"></script>
-      <script src="swiper.min.js"></script>
-      <script src="jquery.appear.min.js"></script>
-      <script src="wow.min.js"></script>
-      <script src="odometer.min.js"></script>
-      <script src="imagesloaded-pkgd.js"></script>
-      <script src="magnific-popup.js"></script>
-      <script src="isotope.pkgd.min.js"></script>
-      <script src="validate.min.js"></script>
-      <script src="main.js"></script>
+      <script src="templates/assets/js/jquery.min.js"></script>
+      <script src="templates/assets/js/bootstrap.bundle.min.js"></script>
+      <script src="templates/assets/js/bootstrap.bundle.min.js.map"></script>
+      <script src="templates/assets/js/meanmenu.js"></script>
+      <script src="templates/assets/js/swiper.min.js"></script>
+      <script src="templates/assets/js/jquery.appear.min.js"></script>
+      <script src="templates/assets/js/wow.min.js"></script>
+      <script src="templates/assets/js/odometer.min.js"></script>
+      <script src="templates/assets/js/imagesloaded-pkgd.js"></script>
+      <script src="templates/assets/js/magnific-popup.js"></script>
+      <script src="templates/assets/js/isotope.pkgd.min.js"></script>
+      <script src="templates/assets/js/validate.min.js"></script>
+      <script src="templates/assets/js/main.js"></script>
    </body>
 </html>

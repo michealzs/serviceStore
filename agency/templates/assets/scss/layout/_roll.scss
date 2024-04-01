@@ -11,7 +11,7 @@ START: Theme Roll CSS
     overflow: hidden;
     width: 110%;
     left: -3px;
-    transform: rotate(-2deg);
+    transform: rota(-2deg);
     @media #{$sm, $xs} {
         padding: 25px 0;
     }
@@ -87,7 +87,7 @@ START: Theme Roll CSS
                         img {
                             min-width: 60px;
                             width: 100%;
-                            animation: rotateImg 6s infinite linear;
+                            animation: rotaImg 6s infinite linear;
                             @media #{$sm, $xs} {
                                 min-width: 40px;
                             }

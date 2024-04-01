@@ -75,11 +75,11 @@ START: Theme Service CSS
             margin-top: -35px;
             margin-bottom: 30px;
             transition: 0.4s;
-            transform: rotate(0);
-            i {
-                font-size: 30px;
-                color: var(--tj-color-light-3);
-            }
+            // transform: rotate(0);
+            // i {
+            //     font-size: 30px;
+            //     color: var(--tj-color-light-3);
+            // }
         }
         .service-content {
             .title {
@@ -90,9 +90,9 @@ START: Theme Service CSS
             }
         }
         &:hover {
-            .service-icon {
-                transform: rotate(-360deg);
-            }
+            // .service-icon {
+            //     transform: rotate(-360deg);
+            // }
         }
     }
     .blog-video-area {

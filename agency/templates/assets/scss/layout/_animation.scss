@@ -4,12 +4,12 @@
 START: Theme Animation CSS
 ----------------------------------------*/
 // circle animation
-@keyframes rotateImg {
+@keyframes rotaImg {
     0% {
-        transform: rotate(0deg);
+        transform: rota(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rota(360deg);
     }
 }
 .shake-y {
@@ -91,36 +91,36 @@ START: Theme Animation CSS
 }
 @-webkit-keyframes skewSpin {
     0% {
-        -webkit-transform: skewX(-10deg) skewY(-15deg) rotateY(-40deg) rotate(0);
-        transform: skewX(-10deg) skewY(-15deg) rotateY(-40deg) rotate(0);
+        -webkit-transform: skewX(-10deg) skewY(-15deg) rotaY(-40deg) rota(0);
+        transform: skewX(-10deg) skewY(-15deg) rotaY(-40deg) rota(0);
     }
     100% {
-        -webkit-transform: skewX(-10deg) skewY(-15deg) rotateY(-40deg) rotate(360deg);
-        transform: skewX(-10deg) skewY(-15deg) rotateY(-40deg) rotate(360deg);
+        -webkit-transform: skewX(-10deg) skewY(-15deg) rotaY(-40deg) rota(360deg);
+        transform: skewX(-10deg) skewY(-15deg) rotaY(-40deg) rota(360deg);
     }
 }
 @keyframes skewSpin {
     0% {
-        -webkit-transform: skewX(-10deg) skewY(-15deg) rotateY(-40deg) rotate(0);
-        transform: skewX(-10deg) skewY(-15deg) rotateY(-40deg) rotate(0);
+        -webkit-transform: skewX(-10deg) skewY(-15deg) rotaY(-40deg) rota(0);
+        transform: skewX(-10deg) skewY(-15deg) rotaY(-40deg) rota(0);
     }
     100% {
-        -webkit-transform: skewX(-10deg) skewY(-15deg) rotateY(-40deg) rotate(360deg);
-        transform: skewX(-10deg) skewY(-15deg) rotateY(-40deg) rotate(360deg);
+        -webkit-transform: skewX(-10deg) skewY(-15deg) rotaY(-40deg) rota(360deg);
+        transform: skewX(-10deg) skewY(-15deg) rotaY(-40deg) rota(360deg);
     }
 }
 
-.left-right-rotate {
-    animation: rotated-style3 2s infinite alternate;
+.left-right-rota {
+    animation: rotad-style3 2s infinite alternate;
 }
-@keyframes rotated-style3 {
+@keyframes rotad-style3 {
     0% {
-        transform: rotate(-10deg);
-        -webkit-transform: rotate(-10deg);
+        transform: rota(-10deg);
+        -webkit-transform: rota(-10deg);
     }
     100% {
-        transform: rotate(10deg);
-        -webkit-transform: rotate(10deg);
+        transform: rota(10deg);
+        -webkit-transform: rota(10deg);
     }
 }
 

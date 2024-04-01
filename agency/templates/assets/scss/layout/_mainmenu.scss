@@ -614,7 +614,7 @@ START: Theme Mainmenu CSS
                 color: var(--tj-color-common-white);
                 transition: 0.4s;
                 &:hover {
-                    transform: rotate(90deg);
+                    transform: rota(90deg);
                 }
             }
         }

@@ -764,7 +764,7 @@ START: Theme Testimonial CSS
          position: absolute;
          bottom: 4%;
          left: 4%;
-         transform: rotate(-80deg);
+         transform: rota(-80deg);
       }
       @media #{$md, $sm, $xs} {
          display: none;
@@ -808,19 +808,19 @@ START: Theme Testimonial CSS
    0%,
    100% {
       border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-      transform: translate3d(0, 0, 0) rotateZ(0.04deg);
+      transform: translate3d(0, 0, 0) rotaZ(0.04deg);
    }
    34% {
       border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-      transform: translate3d(0, 20px, 0) rotateZ(0.04deg);
+      transform: translate3d(0, 20px, 0) rotaZ(0.04deg);
    }
    50% {
-      transform: translate3d(0, 0, 0) rotateZ(0.04deg);
+      transform: translate3d(0, 0, 0) rotaZ(0.04deg);
    }
    67% {
       border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 
-      transform: translate3d(0, -18px, 0) rotateZ(0.04deg);
+      transform: translate3d(0, -18px, 0) rotaZ(0.04deg);
    }
 }
 /* !END: Theme Testimonial CSS */

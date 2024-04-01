@@ -478,10 +478,10 @@ button.swiper-pagination-bullet {
 }
 @keyframes swiper-preloader-spin {
     0% {
-        transform: rotate(0deg);
+        transform: rota(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rota(360deg);
     }
 }
 .swiper .swiper-notification {

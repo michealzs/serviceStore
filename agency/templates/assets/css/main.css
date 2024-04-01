@@ -71,11 +71,11 @@ START: Theme Default CSS
     @Color Declaration
   */
   --tj-color-common-white: #ffffff;
-  --tj-color-common-black: #3a3a3a;
+  --tj-color-common-black: #000000;
   --tj-color-heading-primary: #3a3a3a;
   --tj-color-text-body: #727272;
-  --tj-color-theme-primary: #398cff;
-  --tj-color-theme-secondary: #d92020;
+  --tj-color-theme-primary: #5f39ff;
+  --tj-color-theme-secondary: #20d9a1;
   --tj-color-grey-1: #dcdee7;
   --tj-color-grey-2: #0e0e0e;
   --tj-color-grey-3: #313131;
@@ -823,13 +823,15 @@ START: Theme Button CSS
 START: Theme Header CSS
 ----------------------------------------*/
 .tj-header-area {
-  padding: 25px 0;
+  padding: 15px 0;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 999;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  /* -webkit-transition: 0.4s; */
+  /* transition: 0.4s; */
+  backdrop-filter: blur(150px);
+  -webkit-backdrop-filter: blur(150px);
 }
 .tj-header-area.header-absolute {
   position: absolute;
@@ -843,9 +845,11 @@ START: Theme Header CSS
 }
 .tj-header-area.sticky {
   padding: 15px 0;
-  background: var(--tj-color-grey-2);
-  -webkit-animation: sticky 0.9s;
-          animation: sticky 0.9s;
+  /* background-color: #b1c4b8; */
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  /* -webkit-animation: sticky 0.9s;
+          animation: sticky 0.9s; */
 }
 .tj-header-area .header-button {
   margin-right: -40px;
@@ -866,7 +870,6 @@ START: Theme Header CSS
 .tj-header-area .logo-area {
   max-width: 195px;
   width: 100%;
-  height: auto;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-header-area .logo-area {
@@ -877,8 +880,7 @@ START: Theme Header CSS
   display: inline-block;
 }
 .tj-header-area .logo-area a img {
-  width: 50%;
-  height: auto;
+  width: 100%;
 }
 .tj-header-area.header-style-two.sticky {
   padding: 0;
@@ -1164,7 +1166,7 @@ START: Theme Header CSS
 START: Theme Heading CSS
 ----------------------------------------*/
 .tj-sec-heading {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -1265,7 +1267,7 @@ START: Theme Hero CSS
   position: relative;
   padding-top: 210px;
   padding-bottom: 90px;
-  background-image: url(../banner-bg/banner.jpg);
+  background-image: url(../images/banner-bg/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1424,6 +1426,8 @@ START: Theme Hero CSS
   text-align: center;
   position: relative;
   z-index: 2;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
 }
 .tj-hero-section.hero-style-four .hero-left-content::before {
   position: absolute;
@@ -1948,6 +1952,10 @@ START: Theme Hero CSS
 .hero-left-content {
   position: relative;
   z-index: 3;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 30px;
 }
 .hero-left-content .hero-sub-title {
   color: var(--tj-color-common-white);
@@ -1959,7 +1967,7 @@ START: Theme Hero CSS
   margin-bottom: 10px;
 }
 .hero-left-content .hero-title {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-common-black);
   margin-bottom: 25px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -1977,8 +1985,13 @@ START: Theme Hero CSS
     font-size: 38px;
   }
 }
+.icy {
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+
 .hero-left-content p {
-  color: var(--tj-color-grey-4);
+  color: #000;
   font-size: 18px;
   max-width: 685px;
   margin-bottom: 0;
@@ -1993,7 +2006,7 @@ START: Theme Hero CSS
 }
 
 .hero-image-group {
-  text-align: right;
+  text-align: center;
   position: relative;
   margin-right: -175px;
   z-index: 3;
@@ -2049,14 +2062,13 @@ START: Theme Hero CSS
   width: 110%;
   height: 105%;
   right: -20px;
-  background: url(../images/shape/hero-border.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .hero-image-group .group-image1 img {
   position: relative;
   z-index: 3;
-  border-radius: 550px;
+  /*border-radius: 550px;*/
 }
 .hero-image-group .group-image2 {
   position: absolute;
@@ -2224,8 +2236,10 @@ START: Theme Hero CSS
   color: var(--tj-color-light-4);
   font-size: 20px;
 }
-.hero-content-area .hero-button {
+.hero-button {
   margin-top: 40px;
+  justify-content: center; 
+  align-items: center;
 }
 .hero-content-area .active-shape {
   position: relative;
@@ -2354,7 +2368,7 @@ START: Theme Hero CSS
 START: Theme About CSS
 ----------------------------------------*/
 .tj-about-section {
-  padding-top: 230px;
+  padding-top: 50px;
   padding-bottom: 150px;
   position: relative;
 }
@@ -3922,7 +3936,8 @@ START: Theme Counter CSS
 .tj-counter-section {
   background: -webkit-gradient(linear, left top, right top, color-stop(-25.81%, #1c1c1c), color-stop(116.04%, #373636));
   background: linear-gradient(90deg, #1c1c1c -25.81%, #373636 116.04%);
-  padding: 57px 0;
+  padding-top: 30px ;
+  padding-bottom: 110px;
   position: relative;
   overflow: hidden;
 }
@@ -3954,11 +3969,12 @@ START: Theme Counter CSS
   .counter-content-area {
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
+
   }
 }
 .counter-content-area .counter-item {
   border-right: 1.5px solid rgba(161, 172, 179, 0.2);
-  position: relative;
+  position: absolute;
   z-index: 9;
   padding-bottom: 14px;
   padding-left: 50px;
@@ -3977,7 +3993,7 @@ START: Theme Counter CSS
   border-right: none;
 }
 .counter-content-area .counter-item .tj-count {
-  font-size: 50px;
+  font-size: 80px;
   font-family: var(--tj-ff-heading);
   font-weight: var(--tj-fw-bold);
   -webkit-text-fill-color: transparent;
@@ -4397,14 +4413,14 @@ START: Theme Service CSS
 .tj-service-item .service-content p {
   margin-bottom: 0;
 }
-.tj-service-item:hover {
+/* .tj-service-item:hover {
   background-color: transparent;
   -webkit-box-shadow: 30px 15px 30px 0px rgba(0, 0, 0, 0.05);
           box-shadow: 30px 15px 30px 0px rgba(0, 0, 0, 0.05);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-color: transparent;
-}
+} 
 .tj-service-item:hover .service-icon i {
   -webkit-transform: translate(-50%, -50%) rotate(360deg);
       -ms-transform: translate(-50%, -50%) rotate(360deg);
@@ -4416,6 +4432,7 @@ START: Theme Service CSS
           transform: translateY(0);
   opacity: 1;
 }
+*/
 
 .service-button {
   margin-top: 30px;
@@ -11117,7 +11134,7 @@ START: Theme Contact CSS
 START: Theme Footer CSS
 ----------------------------------------*/
 .tj-footer-area {
-  background-image: url(../images/banner-bg/footer-bg.svg);
+  background-image: url(../images/banner-bg/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11128,11 +11145,15 @@ START: Theme Footer CSS
 .tj-footer-area .footer-menu-area {
   padding-top: 120px;
   padding-bottom: 65px;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-footer-area .footer-menu-area {
     padding-top: 80px;
     padding-bottom: 10px;
+    
   }
 }
 .tj-footer-area .footer-menu-area .footer-content-info {
@@ -11154,7 +11175,7 @@ START: Theme Footer CSS
   display: inline-block;
 }
 .tj-footer-area .footer-menu-area .footer-content-info p {
-  color: var(--tj-color-grey-5);
+  color: var(--tj-color-common-black);
   font-family: var(--tj-ff-heading);
   margin-bottom: 30px;
 }
@@ -11190,10 +11211,10 @@ START: Theme Footer CSS
   color: var(--tj-color-common-white);
 }
 .tj-footer-area .footer-menu-area .footer-content-info .footer-share ul li a:hover svg path {
-  fill: var(--tj-color-common-white);
+  fill: var(--tj-color-common-black);
 }
 .tj-footer-area .footer-menu-area .footer_title {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-common-black);
   margin-bottom: 40px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11219,7 +11240,7 @@ START: Theme Footer CSS
   margin-bottom: 15px;
 }
 .tj-footer-area .footer-menu-area .widget_nav_menu .footer-menu ul li a {
-  color: var(--tj-color-light-4);
+  color: var(--tj-color-common-black);
   font-family: var(--tj-ff-heading);
   font-weight: var(--tj-fw-regular);
   background: -webkit-gradient(linear, left top, right top, from(var(--tj-color-theme-secondary)), to(var(--tj-color-theme-primary)));
@@ -11248,7 +11269,7 @@ START: Theme Footer CSS
   z-index: 9;
 }
 .tj-footer-area .footer-menu-area .widget_contact_menu .footer-menu ul li a {
-  color: var(--tj-color-light-4);
+  color: var(--tj-color-common-black);
   font-family: var(--tj-ff-heading);
   font-weight: var(--tj-fw-regular);
   background: -webkit-gradient(linear, left top, right top, from(var(--tj-color-theme-secondary)), to(var(--tj-color-theme-primary)));
@@ -13593,7 +13614,7 @@ START: Theme Mainmenu CSS
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tj-menu-area li {
-    margin-right: 15px;
+    /* margin-right: 15px; */
   }
 }
 .tj-menu-area li.has-dropdown a {
@@ -13620,16 +13641,16 @@ START: Theme Mainmenu CSS
   margin-right: 0;
 }
 .tj-menu-area li a {
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--tj-ff-heading);
-  font-weight: var(--tj-fw-regular);
+  font-weight: var(--tj-fw-bold);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   background: -webkit-gradient(linear, left top, right top, from(var(--tj-color-theme-secondary)), to(var(--tj-color-theme-primary)));
   background: linear-gradient(90deg, var(--tj-color-theme-secondary) 0%, var(--tj-color-theme-primary) 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-common-black);
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
   padding: 15px 0;
@@ -14358,7 +14379,7 @@ START: Theme Breadcrumb CSS
 ----------------------------------------*/
 .breadcrumb-wrapper {
   padding-top: 210px;
-  padding-bottom: 140px;
+  /* padding-bottom: 140px; */
   background-image: url(../images/banner-bg/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -14369,19 +14390,19 @@ START: Theme Breadcrumb CSS
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
   .breadcrumb-wrapper {
     padding-top: 160px;
-    padding-bottom: 90px;
+    /* padding-bottom: 90px; */
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breadcrumb-wrapper {
     padding-top: 150px;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .breadcrumb-wrapper {
     padding-top: 130px;
-    padding-bottom: 60px;
+    /* padding-bottom: 60px; */
   }
 }
 
@@ -14512,6 +14533,10 @@ START: Theme Breadcrumb CSS
 .breadcrumb-content-area {
   position: relative;
   z-index: 9;
+  text-align: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  /* border-radius: 5%; */
 }
 .breadcrumb-content-area .breadcrumb-heading {
   margin-bottom: 35px;
@@ -14522,7 +14547,10 @@ START: Theme Breadcrumb CSS
   }
 }
 .breadcrumb-content-area .breadcrumb-heading .breadcrumb-title {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-common-black);
+  font-family: var(--tj-ff-heading2);
+  font-weight: bold;
+  padding: 10px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
   .breadcrumb-content-area .breadcrumb-heading .breadcrumb-title {

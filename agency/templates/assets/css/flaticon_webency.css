@@ -19,7 +19,7 @@ i[class*=" flaticon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-rotate:before {
+.flaticon-rota:before {
     content: "\f101";
 }
 .flaticon-hand:before {

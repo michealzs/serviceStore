@@ -70,7 +70,7 @@ START: Theme FAQ CSS
                      &:not(.collapsed) {
                         box-shadow: none;
                         &:before {
-                           transform: rotate(-180deg);
+                           transform: rota(-180deg);
                            background: linear-gradient(90deg, var(--tj-color-theme-secondary) 0%, var(--tj-color-theme-primary) 100%);
                            background-clip: text;
                            -webkit-background-clip: text;
@@ -596,7 +596,7 @@ START: Theme FAQ CSS
                &:not(.collapsed) {
                   box-shadow: none;
                   &:before {
-                     transform: rotate(-180deg);
+                     transform: rota(-180deg);
                      color: var(--tj-color-common-white);
                      background: linear-gradient(90deg, var(--tj-color-theme-secondary) 0%, var(--tj-color-theme-primary) 100%);
                   }
@@ -990,19 +990,19 @@ START: Theme FAQ CSS
    0%,
    100% {
       border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-      transform: translate3d(0, 0, 0) rotateZ(0.04deg);
+      transform: translate3d(0, 0, 0) rotaZ(0.04deg);
    }
    34% {
       border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
-      transform: translate3d(0, 20px, 0) rotateZ(0.04deg);
+      transform: translate3d(0, 20px, 0) rotaZ(0.04deg);
    }
    50% {
-      transform: translate3d(0, 0, 0) rotateZ(0.04deg);
+      transform: translate3d(0, 0, 0) rotaZ(0.04deg);
    }
    67% {
       border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
 
-      transform: translate3d(0, -18px, 0) rotateZ(0.04deg);
+      transform: translate3d(0, -18px, 0) rotaZ(0.04deg);
    }
 }
 /* !END: Theme FAQ CSS */

@@ -439,7 +439,7 @@ START: Theme Blog CSS
          background: linear-gradient(90deg, var(--tj-color-theme-secondary) 0%, var(--tj-color-theme-primary) 100%);
          color: var(--tj-color-common-white);
          writing-mode: vertical-rl;
-         transform: rotate(180deg);
+         transform: rota(180deg);
          z-index: 3;
       }
    }
