@@ -81,22 +81,21 @@
                             <a href="{% url 'main:about' %}">About Us</a>
                         </li>
                         <li class="has-dropdown">
-                            <a href="service.html">Services</a>
+                            <a href="#">Services</a>
                             <ul class="sub-menu">
-                            <li><a href="#.html">Graphic Design</a></li>
-                            <li><a href="#">Website Design</a></li>
-                            <li><a href="#">Mobile App Design</a></li>
-                            <li><a href="#">Digital Marketing & SEO</a></li>
-                            <li><a href="#">Application Support & Maintenance</a></li>
-                            <li><a href="#">Web Radio & PBX </a></li>
+                            <li><a href="{% url 'main:graphic-design' %}">Graphic Design</a></li>
+                            <li><a href="{% url 'main:web-design' %}">Website Design</a></li>
+                            <li><a href="{% url 'main:mobile-design' %}">Mobile App Design</a></li>
+                            <li><a href="{% url 'main:digital-marketting' %}">Digital Marketing & SEO</a></li>
+                            <li><a href="{% url 'main:app-support' %}">Application Support & Maintenance</a></li>
+                            <li><a href="{% url 'main:web-radio' %}">Web Radio & PBX </a></li>
                             </ul>
                         </li>
                         <li class="has-dropdown">
                             <a href="#">Careers</a>
                             <ul class="sub-menu">
-                            <li><a href="#">Job Openings</a></li>
-                            <li><a href="#">Faq</a></li>
-                            <li><a href="team.html">Team</a></li>
+                            <li><a href="{% url 'main:openings' %}">Job Openings</a></li>
+                            <li><a href="{% url 'main:web-radio' %}">Faq</a></li>
                             </ul>
                         </li>
                     </ul>

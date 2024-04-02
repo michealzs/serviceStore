@@ -1958,11 +1958,11 @@ START: Theme Hero CSS
   border-radius: 30px;
 }
 .hero-left-content .hero-sub-title {
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-common-black);
   font-family: var(--tj-ff-heading2);
-  font-size: 35px;
+  font-size: 75px;
   letter-spacing: 3.5px;
-  font-weight: var(--tj-fw-regular);
+  font-weight: var(--tj-fw-bold);
   display: block;
   margin-bottom: 10px;
 }
@@ -14530,14 +14530,18 @@ START: Theme Breadcrumb CSS
   }
 }
 
+.blurr {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
 .breadcrumb-content-area {
   position: relative;
   z-index: 9;
   text-align: center;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
   /* border-radius: 5%; */
 }
+
 .breadcrumb-content-area .breadcrumb-heading {
   margin-bottom: 35px;
 }
