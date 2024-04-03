@@ -1488,11 +1488,11 @@ START: Theme Hero CSS
   font-style: italic;
 }
 .tj-hero-section.hero-style-four .hero-left-content p {
-  font-size: 20px;
+  font-size: 30px;
   max-width: 100%;
   font-family: var(--tj-ff-heading);
   font-weight: var(--tj-fw-medium);
-  color: var(--tj-color-common-white);
+  color: var(--tj-color-common-black);
 }
 .tj-hero-section.hero-style-four .hero-left-content p:last-child {
   margin-bottom: 0;
