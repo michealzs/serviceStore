@@ -1676,9 +1676,8 @@ START: Theme Hero CSS
 .tj-slider-section {
   position: relative;
 }
-
 .tj-slider-section .swiper-slide {
-/*  background-position: center;*/
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -4249,7 +4248,7 @@ START: Theme Counter CSS
 START: Theme Service CSS
 ----------------------------------------*/
 .tj-service-section {
-  padding-top: 100px;
+  /*padding-top: 100px;*/
   padding-bottom: 120px;
   position: relative;
 }

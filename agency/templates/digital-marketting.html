@@ -1,890 +1,212 @@
+
+
 {% extends "base.html" %}
 
 {% block content %}
-
+   {% include "loader.html" %}
    <body>
       <main class="site-content">
          <!-- start: Hero Area -->
-         <section class="tj-hero-section-three">
-            <div class="hero-lg-image">
-               <img src="assets/images/banner-bg/hero-image.jpg" alt="Image" />
-            </div>
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-lg-12">
-                     <div class="hero-content-area">
-                        <div class="tj-sec-heading">
-                           <span class="white-sub-title wow fadeInUp" data-wow-delay=".3s">Services Platform</span>
-                           <h1 class="title wow fadeInUp" data-wow-delay=".4s">
-                              The World’s top Creative <span class="black-color">Marketing Agency</span>
-                           </h1>
-                           <div class="desc wow fadeInUp" data-wow-delay=".5s">
-                              <p>
-                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                 aliqua.
-                              </p>
+         <section class="tj-slider-section">
+            <div class="swiper tj-hero-slider">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide" data-bg-image="templates/assets/images/banner-bg/banner.jpg">
+                     <div class="container">
+                        <div class="hero-content-area">
+                           <div class="tj-sec-heading blurr">
+                              <span class="center-sub-title">Digital Marketing and SEO Services</span>
+                              <div class="desc">
+                                 <p>
+                                   Welcome to our Digital Marketing and SEO Services, where strategy meets creativity to propel your brand to the forefront of the digital landscape. We specialize in delivering comprehensive digital marketing solutions and search engine optimization (SEO) services that drive traffic, generate leads, and maximize conversions for your business. Whether you're looking to increase brand awareness, boost online visibility, or improve search engine rankings, our team of experts is here to help you achieve your goals.
+                                 </p>
+                              </div>
                            </div>
-                           <div class="hero-button d-flex wow fadeInUp" data-wow-delay=".6s">
-                              <a href="contact.html" class="btn tj-black-btn-two">Get started</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide" data-bg-image="templates/assets/images/banner-bg/banner.jpg">
+                     <div class="container">
+                        <div class="hero-content-area">
+                           <div class="tj-sec-heading blurr">
+                              <span class="center-sub-title">Our Approach</span>
+                              <div class="desc">
+                                 <p>
+                                     Our focus is on delivering measurable results that drive success for your business, whether it's increased website traffic, leads, conversions, or revenue.
+                                 </p>
+                              </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-            </div>
-            <div class="hero-group-shape">
-               <div class="group-1 shake-y">
-                  <img src="assets/images/shape/shape-55.svg" alt="Shape" />
-               </div>
-               <div class="group-2 pulse">
-                  <img src="assets/images/shape/shape-56.svg" alt="Shape" />
-               </div>
-               <div class="group-3 shake-y">
-                  <img src="assets/images/shape/shape-57.svg" alt="Shape" />
-               </div>
-               <div class="group-4 shake-y">
-                  <img src="assets/images/shape/shape-57.svg" alt="Shape" />
-               </div>
-               <div class="group-5 pulse">
-                  <img src="assets/images/shape/shape-58.svg" alt="Shape" />
-               </div>
-               <div class="group-6 pulse"></div>
+               <div class="swiper-pagination"></div>
             </div>
          </section>
          <!-- end: Hero Area -->
 
-         <!-- start: About Area -->
-         <section class="tj-about-section-three">
-            <div class="container">
-               <div class="row">
-                  <div class="col-xl-6">
-                     <div class="about-image-group-three hover-shape-border">
-                        <div class="gradient-shape pulse">
-                           <img src="assets/images/about/about-shape.png" alt="Shape" />
-                        </div>
-                        <div class="image-group-1 wow fadeInLeft" data-wow-delay=".9s">
-                           <img class="about-lg-image" src="assets/images/about/about-7.jpg" alt="About" />
-                        </div>
-                        <div class="image-group-2 wow fadeInRight" data-wow-delay="1s">
-                           <img class="about-image" src="assets/images/about/about-8.jpg" alt="About" />
-                        </div>
-                        <div class="about-group-shape">
-                           <div class="shape-1 pulse"></div>
-                           <div class="shape-2 shake-y"></div>
-                           <div class="shape-3 pulse"></div>
-                        </div>
-                        <div class="border-shape">
-                           <span class="border-shadow shadow-1"></span>
-                           <span class="border-shadow shadow-2"></span>
-                           <span class="border-shadow shadow-3"></span>
-                           <span class="border-shadow shadow-4"></span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-6">
-                     <div class="about-content-three">
-                        <div class="tj-sec-heading">
-                           <span class="secondary-color wow fadeInUp" data-wow-delay=".3s"> About Us</span>
-                           <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Unlock Revenue Growth for Your Business.</h2>
-                           <div class="desc wow fadeInUp" data-wow-delay=".5s">
-                              <p>
-                                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-                                 form, by injected humor.
-                              </p>
-                           </div>
-                           <div class="about-content">
-                              <div class="about-item wow fadeInUp" data-wow-delay=".6s">
-                                 <div class="about-icon hover-shape-border">
-                                    <i class="flaticon-profile"></i>
-                                    <div class="icon-shape">
-                                       <span class="border-shadow shadow-1"></span>
-                                       <span class="border-shadow shadow-2"></span>
-                                       <span class="border-shadow shadow-3"></span>
-                                       <span class="border-shadow shadow-4"></span>
-                                    </div>
-                                 </div>
-                                 <div class="about-text">
-                                    <h5 class="title">Efficiency & Management</h5>
-                                    <p>
-                                       There are many variations of passages of Lorem Ipsum available, but the majority. giving information on its
-                                       origins,
-                                    </p>
-                                 </div>
-                              </div>
-                              <div class="about-item wow fadeInUp" data-wow-delay=".7s">
-                                 <div class="about-icon hover-shape-border">
-                                    <i class="flaticon-badge"></i>
-                                    <div class="icon-shape">
-                                       <span class="border-shadow shadow-1"></span>
-                                       <span class="border-shadow shadow-2"></span>
-                                       <span class="border-shadow shadow-3"></span>
-                                       <span class="border-shadow shadow-4"></span>
-                                    </div>
-                                 </div>
-                                 <div class="about-text">
-                                    <h5 class="title">Commitment & Professional</h5>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="about-button d-flex wow fadeInUp" data-wow-delay=".8s">
-                              <a href="about-us.html" class="btn tj-white-btn">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- end: About Area -->
-
-         <!-- start: Roll Area -->
-         <section class="tj-roll-section sc-pt-55 sc-pb-55">
-            <div class="slide-roll">
-               <div class="roll-box roll-box-revers">
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="roll-box roll-box-revers">
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="roll-item">
-                     <div class="roll-content">
-                        <div class="roll-icon">
-                           <img class="portal-icon" src="assets/images/icon/star.svg" alt="Icon" />
-                        </div>
-                        <div class="roll-text">
-                           <h4 class="title">Marketing Agency</h4>
-                           <h4 class="title">Creative Agency</h4>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- end: Roll Area -->
-
-         <!-- start: service Area -->
-         <section class="tj-service-section-three">
-            <div class="container">
-               <div class="row">
-                  <div class="col-xl-6 col-lg-6">
-                     <div class="tj-sec-heading">
-                        <span class="secondary-color wow fadeInUp" data-wow-delay=".3s">Our Services</span>
-                        <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Service We Provide</h2>
-                        <div class="desc wow fadeInUp" data-wow-delay=".5s">
-                           <p>
-                              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                              It was popularised in the 1960s with the release
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                     <div class="tj-service-item-three wow fadeInDown" data-wow-delay=".6s">
-                        <div class="service-icon">
-                           <i class="flaticon-ui-design"></i>
-                        </div>
-                        <h4 class="title"><a href="portfolio-details.html">Mobile Apps</a></h4>
-                        <p>look like readable English. Many desktop publishing packages and web page editors now use</p>
-                        <div class="border-inner"></div>
-                     </div>
-                  </div>
-                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                     <div class="tj-service-item-three wow fadeInDown" data-wow-delay=".7s">
-                        <div class="service-icon">
-                           <i class="flaticon-megaphone"></i>
-                        </div>
-                        <h4 class="title"><a href="portfolio-details.html">Digital Marketing</a></h4>
-                        <p>look like readable English. Many desktop publishing packages and web page editors now use</p>
-                        <div class="border-inner"></div>
-                     </div>
-                  </div>
-                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                     <div class="tj-service-item-three wow fadeInUp" data-wow-delay=".8s">
-                        <div class="border-inner2"></div>
-                        <div class="service-icon">
-                           <i class="flaticon-design"></i>
-                        </div>
-                        <h4 class="title"><a href="portfolio-details.html">Logo Design</a></h4>
-                        <p>look like readable English. Many desktop publishing packages and web page editors now use</p>
-                     </div>
-                  </div>
-                  <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                     <div class="tj-service-item-three wow fadeInUp" data-wow-delay=".9s">
-                        <div class="border-inner2"></div>
-                        <div class="service-icon">
-                           <i class="flaticon-graphic-design-1"></i>
-                        </div>
-                        <h4 class="title"><a href="portfolio-details.html">Web Design</a></h4>
-                        <p>look like readable English. Many desktop publishing packages and web page editors now use</p>
-                     </div>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                     <div class="tj-service-video-content wow fadeInUp" data-wow-delay="1s">
-                        <div class="desc">
-                           <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. eni, ad minim.</p>
-                        </div>
-                        <div class="video-area">
-                           <div class="video-play">
-                              <a
-                                 class="venobox popup-videos-button"
-                                 data-autoplay="true"
-                                 data-vbtype="video"
-                                 href="https://www.youtube.com/watch?v=ADmQTw4qqTY"
-                              >
-                                 <i class="fa-sharp fa-solid fa-play"></i>
-                              </a>
-                           </div>
-                           <div class="video-text">
-                              <h6 class="title">Video Presentation</h6>
-                           </div>
-                        </div>
-                        <div class="video-shape shake-y">
-                           <img src="assets/images/shape/shape-53.svg" alt="Shape" />
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="service-section-shape pulse"></div>
-         </section>
-         <!-- end: service Area -->
-
-         <!-- Start: Portfolio Area -->
-         <section class="tj-portfolio-section-three inc-colum default-padding">
-            <div class="container">
-               <div class="row align-items-center portfolio-top">
-                  <div class="col-lg-6">
-                     <div class="tj-sec-heading">
-                        <span class="secondary-color wow fadeInUp" data-wow-delay=".3s">Projects We Have</span>
-                        <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Our Case Studies</h2>
-                        <div class="desc wow fadeInUp" data-wow-delay=".5s">
-                           <p>
-                              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                              It was popularised in the 1960s with the release
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-6">
-                     <div class="filter-menu wow fadeInRight" data-wow-delay=".6s">
-                        <button class="filter active" data-filter="*">All</button>
-                        <button class="filter" data-filter=".development">Web Design</button>
-                        <button class="filter" data-filter=".consulting">Motion Design</button>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="container wow fadeInUp" data-wow-delay=".7s">
-               <div class="row" id="portfolio-grid">
-                  <div class="col-lg-4 col-md-6">
-                     <div class="portfolio-single-item finance">
-                        <div class="portfolio-inner">
-                           <div class="portfolio-image">
-                              <img src="assets/images/portfolio/portfolio-15.jpg" alt="Image" />
-                           </div>
-                           <div class="portfolio-content">
-                              <div class="portfolio-header">
-                                 <span class="sub-title">Web Developer</span>
-                                 <h3 class="title-link">
-                                    <a href="portfolio-details.html">Business Solution</a>
-                                 </h3>
-                              </div>
-                              <div class="portfolio-arrow">
-                                 <a href="portfolio-details.html"><i class="flaticon-next"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="portfolio-single-item consulting finance">
-                        <div class="portfolio-inner">
-                           <div class="portfolio-image">
-                              <img src="assets/images/portfolio/portfolio-17.jpg" alt="Image" />
-                           </div>
-                           <div class="portfolio-content">
-                              <div class="portfolio-header">
-                                 <span class="sub-title">Web Developer</span>
-                                 <h3 class="title-link">
-                                    <a href="portfolio-details.html">Business Solution</a>
-                                 </h3>
-                              </div>
-                              <div class="portfolio-arrow">
-                                 <a href="portfolio-details.html"><i class="flaticon-next"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="portfolio-inner">
-                           <div class="portfolio-image">
-                              <img src="assets/images/portfolio/portfolio-18.jpg" alt="Image" />
-                           </div>
-                           <div class="portfolio-content">
-                              <div class="portfolio-header">
-                                 <span class="sub-title">Web Developer</span>
-                                 <h3 class="title-link">
-                                    <a href="portfolio-details.html">Business Solution</a>
-                                 </h3>
-                              </div>
-                              <div class="portfolio-arrow">
-                                 <a href="portfolio-details.html"><i class="flaticon-next"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="portfolio-single-item capital development">
-                        <div class="portfolio-inner">
-                           <div class="portfolio-image">
-                              <img src="assets/images/portfolio/portfolio-16.jpg" alt="Image" />
-                           </div>
-                           <div class="portfolio-content">
-                              <div class="portfolio-header">
-                                 <span class="sub-title">Web Developer</span>
-                                 <h3 class="title-link">
-                                    <a href="portfolio-details.html">Business Solution</a>
-                                 </h3>
-                              </div>
-                              <div class="portfolio-arrow">
-                                 <a href="portfolio-details.html"><i class="flaticon-next"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="portfolio-bg-shape">
-               <div class="portfolio-shape shake-y">
-                  <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
-               </div>
-               <div class="portfolio-shape1 shake-y">
-                  <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
-               </div>
-            </div>
-         </section>
-         <!-- end: Portfolio Area -->
-
-         <!-- start: Testimonial Area -->
-         <section class="tj-testimonial-section-three">
+         <!-- start: Service Area -->
+         <section class="tj-service-section-two">
             <div class="container">
                <div class="row">
                   <div class="col-lg-12">
                      <div class="tj-sec-heading">
-                        <span class="secondary-color wow fadeInUp" data-wow-delay=".3s">Optional Subtitle</span>
-                        <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Praise from Clients</h2>
+                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s">About Our  Services </span>
+                        <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s"> Let's  elevate your brand and drive results  <span class="active-color">Together!</span></h2>
                      </div>
                   </div>
                </div>
-               <div class="row align-items-center">
-                  <div class="col-lg-5">
-                     <div class="thumb-area wow fadeInLeft" data-wow-delay=".5s">
-                        <div class="swiper thumb-slider">
-                           <div class="swiper-wrapper thumb_slider">
-                              <div class="swiper-slide thumb_slide">
-                                 <div class="thumb-1">
-                                    <img src="assets/images/testimonial/test-7.png" alt="Image" />
-                                 </div>
-                                 <div class="thumb-arrow">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide thumb_slide">
-                                 <div class="thumb-1">
-                                    <img src="assets/images/testimonial/test-8.png" alt="Image" />
-                                 </div>
-                                 <div class="thumb-arrow">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide thumb_slide">
-                                 <div class="thumb-1">
-                                    <img src="assets/images/testimonial/test-9.png" alt="Image" />
-                                 </div>
-                                 <div class="thumb-arrow">
-                                    <i class="fa-solid fa-quote-right"></i>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="testimonial-info">
-                           <h4 class="title">Piter Bowman</h4>
-                           <span class="sub-tilte">CEO, Business Co</span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-7">
-                     <div class="swiper thumb-slider2 wow fadeInRight" data-wow-delay=".6s">
-                        <div class="swiper-wrapper">
-                           <div class="swiper-slide">
-                              <div class="testimonial-slider-item">
-                                 <div class="testimonial-rating">
-                                    <ul class="dot-style">
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star-half-stroke"></i></li>
-                                    </ul>
-                                 </div>
-                                 <p>
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-                                    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
-                                    the years, sometimes by accident, injected humour and the like.
-                                 </p>
-                                 <p>Various versions have evolved over the years, sometimes by accident, injected humour and the like.</p>
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="testimonial-slider-item">
-                                 <div class="testimonial-rating">
-                                    <ul class="dot-style">
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star-half-stroke"></i></li>
-                                    </ul>
-                                 </div>
-                                 <p>
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-                                    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
-                                    the years, sometimes by accident, injected humour and the like.
-                                 </p>
-                                 <p>Various versions have evolved over the years, sometimes by accident, injected humour and the like.</p>
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="testimonial-slider-item">
-                                 <div class="testimonial-rating">
-                                    <ul class="dot-style">
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star"></i></li>
-                                       <li><i class="fa-solid fa-star-half-stroke"></i></li>
-                                    </ul>
-                                 </div>
-                                 <p>
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-                                    search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over
-                                    the years, sometimes by accident, injected humour and the like.
-                                 </p>
-                                 <p>Various versions have evolved over the years, sometimes by accident, injected humour and the like.</p>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="testimonial-navigation">
-                           <div class="swiper-button-next"></div>
-                           <div class="swiper-button-prev"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="testimonial-sec-shape">
-               <div class="shape-one shake-y">
-                  <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
-               </div>
-               <div class="shape-two pulse"></div>
-               <div class="shape-three shake-y">
-                  <img src="assets/images/shape/portfolio-shape2.svg" alt="Shape" />
-               </div>
-            </div>
-         </section>
-         <!-- end: Testimonial Area -->
-
-         <!-- start: Team Area -->
-         <section class="tj-team-section-two">
-            <div class="container">
                <div class="row">
                   <div class="col-lg-12">
-                     <div class="tj-sec-heading text-center">
-                        <span class="secondary-color wow fadeInUp" data-wow-delay=".3s">How We Work</span>
-                        <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">Meet Our Team</h2>
-                        <div class="desc wow fadeInUp" data-wow-delay=".5s">
-                           <p>
-                              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                              It was popularised in the 1960s with the release
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-3 col-md-6 col-sm-6">
-                     <div class="tj-team-item-two wow fadeInUp" data-wow-delay=".66s">
-                        <div class="team-image">
-                           <img src="assets/images/team/team-10.jpg" alt="Team" />
-                        </div>
-                        <div class="tj-team-content">
-                           <div class="team-share">
-                              <ul class="dot-style">
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 </li>
-                              </ul>
+                     <div class="tj-service-item-two wow fadeInUp" data-wow-delay=".5s">
+                        <div class="service-content-info">
+                           <div class="service-left-content">
+                              <div class="service-text">
+                                 <span class="number ">01</span>
+                              </div>
+                              <div class="service-text">
+                                 <h3 class="title-link">
+                                    <a class="sec-title" href="service-details.html">Search Engine Optimization (SEO)</a>
+                                 </h3>
+                              </div>
                            </div>
-                           <div class="team-header">
-                              <h5 class="title-link"><a href="#">Alextina Deitarson</a></h5>
-                              <span class="sub-title">UI/UX Designer</span>
+                        </div>
+                        <div class="service-middle-content">
+                           <div class="service-text">
+                              <div class="desc">
+                                 <p>
+                                    Improve your website's visibility and organic search rankings with our comprehensive SEO services. From on-page optimization to link building to content strategy, we employ proven tactics to help you outrank the competition and drive targeted traffic to your site.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="service-content-info">
+                           <div class="service-arrow">
+                              <a href="service-details.html"><i class="flaticon-digital-marketing"></i></a>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6">
-                     <div class="tj-team-item-two wow fadeInUp" data-wow-delay=".7s">
-                        <div class="team-image">
-                           <img src="assets/images/team/team-11.jpg" alt="Team" />
-                        </div>
-                        <div class="tj-team-content">
-                           <div class="team-share">
-                              <ul class="dot-style">
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 </li>
-                              </ul>
-                           </div>
-                           <div class="team-header">
-                              <h5 class="title-link"><a href="#">Alextina Deitarson</a></h5>
-                              <span class="sub-title">UI/UX Designer</span>
+                     <div class="tj-service-item-two wow fadeInUp" data-wow-delay=".5s">
+                        <div class="service-content-info">
+                           <div class="service-left-content">
+                              <div class="service-text">
+                                 <span class="number ">02</span>
+                              </div>
+                              <div class="service-text">
+                                 <h3 class="title-link">
+                                    <a class="sec-title" href="service-details.html">Content Marketing</a>
+                                 </h3>
+                              </div>
                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6">
-                     <div class="tj-team-item-two wow fadeInUp" data-wow-delay=".8s">
-                        <div class="team-image">
-                           <img src="assets/images/team/team-12.jpg" alt="Team" />
-                        </div>
-                        <div class="tj-team-content">
-                           <div class="team-share">
-                              <ul class="dot-style">
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 </li>
-                              </ul>
+                        <div class="service-middle-content">
+                           <div class="service-text">
+                              <div class="desc">
+                                 <p>Engage your audience and build brand authority with our content marketing services. From blog posts to infographics to videos, we create compelling content that resonates with your target audience and drives engagement across all channels.
+                                 </p>
+                              </div>
                            </div>
-                           <div class="team-header">
-                              <h5 class="title-link"><a href="#">Alextina Deitarson</a></h5>
-                              <span class="sub-title">UI/UX Designer</span>
+                        </div>
+                        <div class="service-content-info">
+                           <div class="service-arrow">
+                              <a href="service-details.html"><i class="flaticon-digital-marketing"></i></a>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6">
-                     <div class="tj-team-item-two wow fadeInUp" data-wow-delay=".9s">
-                        <div class="team-image">
-                           <img src="assets/images/team/team-13.jpg" alt="Team" />
-                        </div>
-                        <div class="tj-team-content">
-                           <div class="team-share">
-                              <ul class="dot-style">
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                 </li>
-                                 <li>
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                 </li>
-                              </ul>
+                     <div class="tj-service-item-two wow fadeInUp" data-wow-delay=".5s">
+                        <div class="service-content-info">
+                           <div class="service-left-content">
+                              <div class="service-text">
+                                 <span class="number ">03</span>
+                              </div>
+                              <div class="service-text">
+                                 <h3 class="title-link">
+                                    <a class="sec-title" href="service-details.html">Social Media Marketing</a>
+                                 </h3>
+                              </div>
                            </div>
-                           <div class="team-header">
-                              <h5 class="title-link"><a href="#">Alextina Deitarson</a></h5>
-                              <span class="sub-title">UI/UX Designer</span>
+                        </div>
+                        <div class="service-middle-content">
+                           <div class="service-text">
+                              <div class="desc">
+                                 <p>
+                                   Leverage the power of social media to connect with your audience and build brand loyalty. Our social media marketing experts develop tailored strategies to increase followers, drive engagement, and generate leads on platforms like Facebook, Instagram, Twitter, and LinkedIn.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="service-content-info">
+                           <div class="service-arrow">
+                              <a href="service-details.html"><i class="flaticon-digital-marketing"></i></a>
                            </div>
                         </div>
                      </div>
-                  </div>
-               </div>
-            </div>
-            <div class="team-shape pulse">
-               <img src="assets/images/shape/shape-16.svg" alt="Shape" />
-            </div>
-         </section>
-         <!-- end: Team Area -->
+                     <div class="tj-service-item-two wow fadeInUp" data-wow-delay=".5s">
+                        <div class="service-content-info">
+                           <div class="service-left-content">
+                              <div class="service-text">
+                                 <span class="number ">04</span>
+                              </div>
+                              <div class="service-text">
+                                 <h3 class="title-link">
+                                    <a class="sec-title" href="service-details.html">Pay-Per-Click (PPC) Advertising</a>
+                                 </h3>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="service-middle-content">
+                           <div class="service-text">
+                              <div class="desc">
+                                 <p>
+                                    Drive immediate results with our PPC advertising services. We create targeted ad campaigns that reach your ideal audience and drive traffic, leads, and conversions across search engines and social media platforms.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
 
-         <!-- start: Video Area -->
-         <section class="tj-video-section wow fadeInUp" data-wow-delay=".3s">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-12">
-                     <div class="tj-video-area text-center">
-                        <div class="tj-video-popup">
-                           <div class="circle pulse video-icon">
-                              <a
-                                 class="venobox popup-videos-button"
-                                 data-autoplay="true"
-                                 data-vbtype="video"
-                                 href="https://www.youtube.com/watch?v=ADmQTw4qqTY"
-                              >
-                                 <img src="assets/images/icon/play.svg" alt="Play" />
-                              </a>
+                        <div class="service-content-info">
+                           <div class="service-arrow">
+                              <a href="service-details.html"><i class="flaticon-digital-marketing"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tj-service-item-two wow fadeInUp" data-wow-delay=".5s">
+                        <div class="service-content-info">
+                           <div class="service-left-content">
+                              <div class="service-text">
+                                 <span class="number ">05</span>
+                              </div>
+                              <div class="service-text">
+                                 <h3 class="title-link">
+                                    <a class="sec-title" href="service-details.html">Email Marketing</a>
+                                 </h3>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="service-middle-content">
+                           <div class="service-text">
+                              <div class="desc">
+                                 <p>
+                                    Stay top-of-things with your audience and nurture leads with our email marketing services. From automated drip campaigns to personalized newsletters, we create email campaigns that deliver the right message to the right people at the right time.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <div class="service-content-info">
+                           <div class="service-arrow">
+                              <a href="service-details.html"><i class="flaticon-digital-marketing"></i></a>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-            <div class="video-sec-shape">
-               <div class="shape-1 shake-y">
-                  <img src="assets/images/shape/shape-57.svg" alt="Shape" />
-               </div>
-               <div class="shape-2 shake-y">
-                  <img src="assets/images/shape/shape-57.svg" alt="Shape" />
-               </div>
-               <div class="shape-3 pulse">
-                  <img src="assets/images/shape/shape-61.svg" alt="Shape" />
-               </div>
-            </div>
          </section>
-         <!-- end: Video Area -->
+         <!-- end: Service Area -->
 
-         <!-- start: Blog Area -->
-         <section class="tj-blog-section-three">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-12">
-                     <div class="tj-sec-heading text-center">
-                        <span class="secondary-color wow fadeInUp" data-wow-delay=".3s">Latest Blog</span>
-                        <h2 class="sec-title wow fadeInUp" data-wow-delay=".4s">The best studio in the city</h2>
-                        <div class="desc wow fadeInUp" data-wow-delay=".5s">
-                           <p>
-                              All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true
-                              generator on the Internet. It uses a dictionary of over 200 Latin words,
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-4 col-md-6">
-                     <div class="tj-blog-item-three wow fadeInUp" data-wow-delay=".6s">
-                        <div class="blog-image">
-                           <a href="blog-details.html"><img src="assets/images/blog/blog-15.jpg" alt="Image" /></a>
-                        </div>
-                        <div class="blog-content-area">
-                           <div class="blog-meta-three">
-                              <span><a href="blog-details.html">Business</a></span>
-                              <span>May 22, 2023</span>
-                           </div>
-                           <h4 class="title-link">
-                              <a href="blog-details.html">Simple Proctives that will help you get better every day</a>
-                           </h4>
-                           <div class="tj-blog-button">
-                              <a href="blog-details.html" class="btn tj-white-btn">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="tj-blog-item-three wow fadeInUp" data-wow-delay=".7s">
-                        <div class="blog-image">
-                           <a href="blog-details.html"><img src="assets/images/blog/blog-16.jpg" alt="Image" /></a>
-                        </div>
-                        <div class="blog-content-area">
-                           <div class="blog-meta-three">
-                              <span><a href="blog-details.html">Artificial Inteligence</a></span>
-                              <span>Dec 05, 2023</span>
-                           </div>
-                           <h4 class="title-link">
-                              <a href="blog-details.html">How data backup & recovery can save your business</a>
-                           </h4>
-                           <div class="tj-blog-button">
-                              <a href="blog-details.html" class="btn tj-white-btn">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="tj-blog-item-three wow fadeInUp" data-wow-delay=".8s">
-                        <div class="blog-image">
-                           <a href="blog-details.html"><img src="assets/images/blog/blog-17.jpg" alt="Image" /></a>
-                        </div>
-                        <div class="blog-content-area">
-                           <div class="blog-meta-three">
-                              <span><a href="blog-details.html">Business Agency</a></span>
-                              <span>Jan 14, 2023</span>
-                           </div>
-                           <h4 class="title-link">
-                              <a href="blog-details.html">Search enginess optimizaties for streamline solutions</a>
-                           </h4>
-                           <div class="tj-blog-button">
-                              <a href="blog-details.html" class="btn tj-white-btn">Read More</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="blog-sec-shape">
-               <div class="shape-one pulse">
-                  <img src="assets/images/shape/shape-16.svg" alt="Images" />
-               </div>
-               <div class="shape-two shake-y">
-                  <img src="assets/images/shape/shape-52.svg" alt="Images" />
-               </div>
-               <div class="shape-three pulse"></div>
-            </div>
-         </section>
-         <!-- end: Blog Area -->
+
+         <!-- end: CTA Area -->
+      {% include "pricing.html" %}
       </main>
-
-
-      <!-- BEGIN: Contact Form Success Modal Message -->
-      <div class="modal" id="message_sent" tabindex="-1">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-header alert alert-success">
-                  <h5 class="modal-title">Message Sent Successfully</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-               </div>
-               <div class="modal-body">
-                  <p>Thank you for contacting us. We will get back to you shortly.<br />Have a great day!</p>
-               </div>
-               <div class="modal-footer">
-                  <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- END: Contact Form Success Modal Message -->
-
-      <!-- BEGIN: Contact Form Fail Modal Message -->
-      <div class="modal" id="message_fail" tabindex="-1">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-header alert alert-danger">
-                  <h5 class="modal-title">Error</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-               </div>
-               <div class="modal-body">
-                  <p>Oops! Something went wrong, please try again.</p>
-               </div>
-               <div class="modal-footer">
-                  <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- END: Contact Form Fail Modal Message End -->
-
    </body>
 {% endblock content %}

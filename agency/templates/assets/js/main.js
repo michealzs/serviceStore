@@ -106,7 +106,7 @@ Mobile Menu Js
       spaceBetween: 30,
       effect: "fade",
       autoplay: {
-         delay: 5000,
+         delay: 10000,
       },
       pagination: {
          el: ".swiper-pagination",
