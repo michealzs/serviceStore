@@ -1235,11 +1235,11 @@ START: Theme Heading CSS
   background: linear-gradient(90deg, var(--tj-color-theme-secondary) 0%, var(--tj-color-theme-primary) 100%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: black;
   font-size: 75px;
   font-family: var(--tj-ff-heading2);
   letter-spacing: 3.5px;
-  font-weight: var(--tj-fw-regular);
+  font-weight: var(--tj-fw-bold);
 /*  display: inline-block;*/
   margin-bottom: 10px;
   line-height: 1.2;
@@ -1248,7 +1248,7 @@ START: Theme Heading CSS
   justify-content: center;
   align-items: center;
   text-align: center;
-  
+  color: black;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-sec-heading .white-sub-title {
@@ -2046,7 +2046,7 @@ START: Theme Hero CSS
 
 .hero-left-content p {
   color: #000;
-  font-size: 18px;
+  font-size: 25px;
   max-width: 685px;
   margin-bottom: 0;
 }
@@ -2287,8 +2287,8 @@ START: Theme Hero CSS
   }
 }
 .hero-content-area .desc p {
-  color: var(--tj-color-light-4);
-  font-size: 20px;
+  color: black;
+  font-size: 25px;
 }
 .hero-button {
   margin-top: 40px;
@@ -13740,7 +13740,7 @@ START: Theme Mainmenu CSS
   margin-right: 0;
 }
 .tj-menu-area li a {
-  font-size: 18px;
+  font-size: 25px;
   font-family: var(--tj-ff-heading);
   font-weight: var(--tj-fw-bold);
   -webkit-transition: 0.4s;
