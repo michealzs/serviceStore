@@ -1,10 +1,16 @@
 @font-face {
     font-family: "flaticon_webency";
-    src: url("../fonts/flaticon_webency.ttf?f4b955af05e202268e82090e43ccbdb8") format("truetype"),
-        url("../fonts/flaticon_webency.woff?f4b955af05e202268e82090e43ccbdb8") format("woff"),
-        url("../fonts/flaticon_webency.woff2?f4b955af05e202268e82090e43ccbdb8") format("woff2"),
-        url("../fonts/flaticon_webency.eot?f4b955af05e202268e82090e43ccbdb8#iefix") format("embedded-opentype"),
-        url("../fonts/flaticon_webency.svg?f4b955af05e202268e82090e43ccbdb8#flaticon_webency") format("svg");
+    /*src: url("../fonts/flaticon_webency.ttf?f4b955af05e202268e82090e43ccbdb8") format("truetype"),*/
+    /*    url("../fonts/flaticon_webency.woff?f4b955af05e202268e82090e43ccbdb8") format("woff"),*/
+    /*    url("../fonts/flaticon_webency.woff2?f4b955af05e202268e82090e43ccbdb8") format("woff2"),*/
+    /*    url("../fonts/flaticon_webency.eot?f4b955af05e202268e82090e43ccbdb8#iefix") format("embedded-opentype"),*/
+    /*    url("../fonts/flaticon_webency.svg?f4b955af05e202268e82090e43ccbdb8#flaticon_webency") format("svg");*/
+
+    src: url("flaticon_webency.ttf?f4b955af05e202268e82090e43ccbdb8") format("truetype"),
+        url("flaticon_webency.woff?f4b955af05e202268e82090e43ccbdb8") format("woff"),
+        url("flaticon_webency.woff2?f4b955af05e202268e82090e43ccbdb8") format("woff2"),
+        url("flaticon_webency.eot?f4b955af05e202268e82090e43ccbdb8#iefix") format("embedded-opentype"),
+        url("flaticon_webency.svg?f4b955af05e202268e82090e43ccbdb8#flaticon_webency") format("svg");
 }
 
 i[class^="flaticon-"]:before,

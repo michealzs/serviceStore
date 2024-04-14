@@ -1308,7 +1308,7 @@ START: Theme Hero CSS
   position: relative;
   padding-top: 210px;
   padding-bottom: 90px;
-  background-image: url(../images/banner-bg/banner.jpg);
+  background-image: url(../banner-bg/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1797,7 +1797,7 @@ START: Theme Hero CSS
   width: 100%;
   height: 100%;
   opacity: 0.35;
-  background: url(../images/banner-bg/hero-overly2.svg);
+  background: url(../banner-bg/hero-overly2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1822,8 +1822,8 @@ START: Theme Hero CSS
   max-width: 1328px;
   width: 100%;
   height: 100%;
-  mask-image: url(../images/banner-bg/hero-overly.svg);
-  -webkit-mask-image: url(../images/banner-bg/hero-overly.svg);
+  mask-image: url(../banner-bg/hero-overly.svg);
+  -webkit-mask-image: url(../banner-bg/hero-overly.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -1914,8 +1914,8 @@ START: Theme Hero CSS
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-  mask-image: url(../images/shape/shape-60.svg);
-  -webkit-mask-image: url(../images/shape/shape-60.svg);
+  mask-image: url(../shape/shape-60.svg);
+  -webkit-mask-image: url(../shape/shape-60.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -2292,7 +2292,7 @@ START: Theme Hero CSS
 }
 .hero-button {
   margin-top: 40px;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
 .hero-content-area .active-shape {
@@ -2305,7 +2305,7 @@ START: Theme Hero CSS
   height: 50px;
   left: 0;
   bottom: 8%;
-  background-image: url(../images/shape/banner-shape.svg);
+  background-image: url(../shape/banner-shape.svg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: contain;
@@ -2638,7 +2638,7 @@ START: Theme About CSS
   right: -50%;
   width: 100%;
   height: 100%;
-  background: url(../images/shape/shape-11.svg);
+  background: url(../shape/shape-11.svg);
   background-repeat: no-repeat;
   background-position: center;
   z-index: -1;
@@ -2655,7 +2655,7 @@ START: Theme About CSS
   left: 7%;
   width: 100%;
   height: 100%;
-  background: url(../images/icon/border-shape.png);
+  background: url(../icon/border-shape.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -2787,7 +2787,7 @@ START: Theme About CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/icon/border-shape1.svg);
+  background: url(../icon/border-shape1.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3506,8 +3506,8 @@ START: Theme About CSS
   }
 }
 .about-image-group-three .gradient-shape {
-  -webkit-mask-image: url(../images/shape/about-image.svg);
-          mask-image: url(../images/shape/about-image.svg);
+  -webkit-mask-image: url(../shape/about-image.svg);
+          mask-image: url(../shape/about-image.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -3628,8 +3628,8 @@ START: Theme About CSS
 .about-image-group-three .image-group-1 {
   max-width: 580px;
   width: 100%;
-  -webkit-mask-image: url(../images/shape/about-image.svg);
-          mask-image: url(../images/shape/about-image.svg);
+  -webkit-mask-image: url(../shape/about-image.svg);
+          mask-image: url(../shape/about-image.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -3645,8 +3645,8 @@ START: Theme About CSS
 .about-image-group-three .image-group-2 {
   max-width: 345px;
   width: 100%;
-  -webkit-mask-image: url(../images/shape/about-image1.svg);
-          mask-image: url(../images/shape/about-image1.svg);
+  -webkit-mask-image: url(../shape/about-image1.svg);
+          mask-image: url(../shape/about-image1.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -3680,8 +3680,8 @@ START: Theme About CSS
   height: 105px;
   left: -74px;
   top: -74px;
-  -webkit-mask-image: url(../images/shape/shape-60.svg);
-          mask-image: url(../images/shape/shape-60.svg);
+  -webkit-mask-image: url(../shape/shape-60.svg);
+          mask-image: url(../shape/shape-60.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -3699,8 +3699,8 @@ START: Theme About CSS
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-  -webkit-mask-image: url(../images/shape/shape-37.svg);
-          mask-image: url(../images/shape/shape-37.svg);
+  -webkit-mask-image: url(../shape/shape-37.svg);
+          mask-image: url(../shape/shape-37.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -3718,8 +3718,8 @@ START: Theme About CSS
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-  -webkit-mask-image: url(../images/shape/shape-37.svg);
-          mask-image: url(../images/shape/shape-37.svg);
+  -webkit-mask-image: url(../shape/shape-37.svg);
+          mask-image: url(../shape/shape-37.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -4093,7 +4093,7 @@ START: Theme Counter CSS
   height: 100%;
   left: 0;
   top: 0;
-  background-image: url(../images/banner-bg/counter-shape.png);
+  background-image: url(../banner-bg/counter-shape.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4474,7 +4474,7 @@ START: Theme Service CSS
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-color: transparent;
-} 
+}
 .tj-service-item .service-icon i{
   -webkit-transform: translate(-50%, -50%) ;
       -ms-transform: translate(-50%, -50%) ;
@@ -4802,8 +4802,8 @@ START: Theme Service CSS
   position: absolute;
   width: 150px;
   height: 150px;
-  -webkit-mask-image: url(../images/shape/shape-60.svg);
-          mask-image: url(../images/shape/shape-60.svg);
+  -webkit-mask-image: url(../shape/shape-60.svg);
+          mask-image: url(../shape/shape-60.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -6043,7 +6043,7 @@ START: Theme Testimonial CSS
           transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: url(../images/banner-bg/faq-border.svg);
+  background: url(../banner-bg/faq-border.svg);
   background-repeat: no-repeat;
 }
 @media (max-width: 575px) {
@@ -6286,8 +6286,8 @@ START: Theme Testimonial CSS
   position: absolute;
   top: 15%;
   right: 10%;
-  -webkit-mask-image: url(../images/shape/shape-37.svg);
-          mask-image: url(../images/shape/shape-37.svg);
+  -webkit-mask-image: url(../shape/shape-37.svg);
+          mask-image: url(../shape/shape-37.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -7986,7 +7986,7 @@ START: Theme FAQ CSS
 ----------------------------------------*/
 .tj-faq-section {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -8376,7 +8376,7 @@ START: Theme FAQ CSS
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   height: 100%;
-  background: url(../images/icon/border-shape2.svg);
+  background: url(../icon/border-shape2.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9084,7 +9084,7 @@ START: Theme FAQ CSS
   content: "";
   top: 10px;
   right: -95%;
-  background: url(../images/icon/faq.svg);
+  background: url(../icon/faq.svg);
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -9743,8 +9743,8 @@ START: Theme Blog CSS
   right: 0;
   right: 5%;
   bottom: 40%;
-  -webkit-mask-image: url(../images/shape/shape-37.svg);
-          mask-image: url(../images/shape/shape-37.svg);
+  -webkit-mask-image: url(../shape/shape-37.svg);
+          mask-image: url(../shape/shape-37.svg);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -10926,7 +10926,7 @@ START: Theme Contact CSS
 .tj-contact-section-two {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url(../images/banner-bg/contact.jpg);
+  background-image: url(../banner-bg/contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -11222,7 +11222,7 @@ START: Theme Contact CSS
 START: Theme Footer CSS
 ----------------------------------------*/
 .tj-footer-area {
-  background-image: url(../images/banner-bg/banner.jpg);
+  background-image: url(../banner-bg/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11241,7 +11241,7 @@ START: Theme Footer CSS
   .tj-footer-area .footer-menu-area {
     padding-top: 80px;
     padding-bottom: 10px;
-    
+
   }
 }
 .tj-footer-area .footer-menu-area .footer-content-info {
@@ -11891,7 +11891,7 @@ START: Theme Footer CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/shape/footer-bg-shape.svg);
+  background: url(../shape/footer-bg-shape.svg);
   opacity: 0.9;
   mix-blend-mode: soft-light;
   background-repeat: no-repeat;
@@ -12427,7 +12427,7 @@ START: Theme CTA CSS
   padding-bottom: 120px;
 /*  background: -webkit-gradient(linear, left top, right top, from(var(--tj-color-theme-secondary)), to(var(--tj-color-common-black)));
   background-image: linear-gradient(90deg, var(--tj-color-theme-secondary) 0%, var(--tj-color-theme-primary) 100%);*/
-  background-image: url(../images/banner-bg/banner.jpg);
+  background-image: url(../banner-bg/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12441,7 +12441,7 @@ START: Theme CTA CSS
   height: 100%;
   left: 0;
   top: 0;
-  background-image: url(../images/banner-bg/cta-shape.png);
+  background-image: url(../banner-bg/cta-shape.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12676,7 +12676,7 @@ START: Theme Video CSS
   background: linear-gradient(72deg, var(--tj-color-light-3) 0%, rgba(112, 95, 255, 0) 99.2%);
   padding-top: 210px;
   padding-bottom: 210px;
-  background-image: url(../images/product/cta-bg.jpg);
+  background-image: url(../product/cta-bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13346,7 +13346,7 @@ START: Theme Roll CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/banner-bg/roll-bg.svg);
+  background-image: url(../banner-bg/roll-bg.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14479,7 +14479,7 @@ START: Theme Breadcrumb CSS
 .breadcrumb-wrapper {
   padding-top: 210px;
   /* padding-bottom: 140px; */
-  background-image: url(../images/banner-bg/banner.jpg);
+  background-image: url(../banner-bg/banner.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

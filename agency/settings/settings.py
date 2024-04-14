@@ -122,9 +122,9 @@ STATICFILES_DIRS = [
 ]
 # BASE_DIR / "static"
 # FRONT_END_DIR / "dist" / "assets",
-STATIC_ROOT = os.path.join(BASE_DIR, '/templates/assets/')
+STATIC_ROOT = os.path.join(BASE_DIR, '/static')
 STATIC_URL = "/templates/assets/"
-MEDIA_ROOT = os.path.join(BASE_DIR, '/templates/assets/images')
+MEDIA_ROOT = os.path.join(BASE_DIR, '/templates/assets/')
 #STATIC_URL = "/templates/assets/images"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
