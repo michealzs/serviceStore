@@ -12,6 +12,8 @@ from .views import (
     AppSupportView,
     WebRadioView,
     JobOpeningView,
+    ContactFormView,
+    SuccessView,
 )
 
 app_name = 'main'
@@ -27,5 +29,7 @@ urlpatterns = [
     path('app-support', AppSupportView.as_view(), name='app-support'),
     path('web-radio', WebRadioView.as_view(), name='web-radio'),
     path('openings', JobOpeningView.as_view(), name='openings'),
+    path('contact', ContactFormView.as_view(), name='contact'),
+    path('success', SuccessView.as_view(), name='success'),
 
 ]

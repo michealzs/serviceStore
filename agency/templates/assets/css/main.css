@@ -4504,7 +4504,7 @@ START: Theme Service CSS
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tj-service-section-two {
-    padding-top: 75px;
+    /*padding-top: 75px;*/
     padding-bottom: 80px;
   }
 }

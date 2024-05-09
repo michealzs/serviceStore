@@ -1,4 +1,4 @@
-
+{% extends 'base.html' %}
 
 {% block content %}
             <!-- start: Contact Area -->
@@ -37,23 +37,31 @@
                               </div>
                            </div>
                         </div>
-                        <form id="contact-form" class="contact-form-box wow fadeInRight" data-wow-delay=".9s">
-                           <div class="form-input">
-                              <label>Your Name</label>
-                              <input type="text" class="form__input" name="conName" />
-                           </div>
-                           <div class="form-input">
-                              <label>Email Address</label>
-                              <input type="email" class="form__input" name="conEmail" />
-                           </div>
-                           <div class="form-textarea">
-                              <label>How can help you?</label>
-                              <textarea id="message" name="conMessage"></textarea>
-                           </div>
-                           <div class="tj-contact-button">
-                              <button class="btn tj-primary-btn" type="submit">Submit Now</button>
-                           </div>
+                          <!-- Assuming you have a base template that includes all necessary CSS/JS -->
+
+                        <form id="contact-form" method="post" class="contact-form-box wow fadeInRight" data-wow-delay=".9s">
+                            {% csrf_token %}
+                            {{ form.as_p }}
+                            <!--<div class="form-input">-->
+                            <!--    <label for="{{ form.conName.id_for_label }}">Your Name</label>-->
+                            <!--    {{ form.conName.errors }}-->
+                            <!--    {{ form.conName }}-->
+                            <!--</div>-->
+                            <!--<div class="form-input">-->
+                            <!--    <label for="{{ form.conEmail.id_for_label }}">Email Address</label>-->
+                            <!--    {{ form.conEmail.errors }}-->
+                            <!--    {{ form.conEmail }}-->
+                            <!--</div>-->
+                            <!--<div class="form-textarea">-->
+                            <!--    <label for="{{ form.conMessage.id_for_label }}">How can we help you?</label>-->
+                            <!--    {{ form.conMessage.errors }}-->
+                            <!--    {{ form.conMessage }}-->
+                            <!--</div>-->
+                            <div class="tj-contact-button">
+                                <button class="btn tj-primary-btn" type="submit">Submit Now</button>
+                            </div>
                         </form>
+
                      </div>
                   </div>
                </div>
@@ -74,25 +82,6 @@
             </div>
          </section>
          <!-- end: Contact Area -->
-
-         <!-- BEGIN: Contact Form Success Modal Message -->
-         <div class="modal" id="message_sent" tabindex="-1">
-            <div class="modal-dialog">
-               <div class="modal-content">
-                  <div class="modal-header alert alert-success">
-                     <h5 class="modal-title">Message Sent Successfully</h5>
-                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                     <p>Thank you for contacting us. We will get back to you shortly.<br />Have a great day!</p>
-                  </div>
-                  <div class="modal-footer">
-                     <button type="button" class="btn" data-bs-dismiss="modal">Close</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- END: Contact Form Success Modal Message -->
 
          <!-- BEGIN: Contact Form Fail Modal Message -->
          <div class="modal" id="message_fail" tabindex="-1">

@@ -12,7 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 import os
 from pathlib import Path
 from dotenv import load_dotenv, find_dotenv
-from .env import KEY
+from .env import KEY,EMAIL_,BACKEND_,HOST_,PASSWORD_,HOST_,PORT_,TLS_
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -130,3 +131,15 @@ MEDIA_ROOT = os.path.join(BASE_DIR, '/templates/assets/')
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+##########################
+#   Email               #
+#########################
+DEFAULT_FROM_EMAIL = EMAIL_
+EMAIL_BACKEND = BACKEND_
+EMAIL_HOST_USER = HOST_
+EMAIL_HOST_PASSWORD = PASSWORD_
+EMAIL_HOST = HOST_
+EMAIL_PORT = PORT_
+EMAIL_USE_TLS = TLS_
+

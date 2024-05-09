@@ -1,6 +1,11 @@
 
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, TemplateView, DeleteView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, TemplateView, DeleteView, FormView
 from .models import HomeModel, AboutModel
+from .form import ContactForm
+from django.urls import reverse_lazy
+from django.core.mail import send_mail
+from django.conf import settings
+from .models import Contact
 
 class HomeView(ListView):
     model = HomeModel
@@ -59,3 +64,32 @@ class WebRadioView(TemplateView):
 class JobOpeningView(TemplateView):
     template_name = 'openings.html'
 
+class SuccessView(TemplateView):
+    template_name = 'success.html'
+
+class ContactFormView(CreateView):
+    template_name = 'contact.html'
+    model = Contact
+    form_class = ContactForm
+    success_url = reverse_lazy('success')
+
+    def form_valid(self, form):
+        # Save the form data to the database
+        name = form.cleaned_data['conName']
+        email = form.cleaned_data['conEmail']
+        message = form.cleaned_data['conMessage']
+        print(f"Name: {name}, Email: {email}, Message: {message}")
+
+        contact = Contact(name=name, email=email, message=message)
+        contact.save()
+
+        # Send an email with the form data
+        send_mail(
+            'New Contact Form Submission',
+            f'From: {name}, Email: {email}, Message: {message}',
+            settings.DEFAULT_FROM_EMAIL,
+            [settings.ADMIN_EMAIL],
+            fail_silently=False,
+        )
+
+        return super().form_valid(form)
