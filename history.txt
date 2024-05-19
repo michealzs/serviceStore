@@ -1,0 +1,526 @@
+    1  ls-la
+    2  ls -la
+    3  apt install tree
+    4  ls -la
+    5  apt install tldr
+    6  tldr tree
+    7  tree -d
+    8  tree -d sites-available
+    9  tree site-available
+   10  tree sites-available
+   11  nano sites-available/default
+   12  nano sites-available/default
+   13  ls
+   14  sudo ln -s /etc/nginx/sites-available/server_ip.conf  /etc/nginx/sites-enabled
+   15  sudo ln -s /etc/nginx/sites-available/server_ip.conf  /etc/nginx/sites-enabled/
+   16  sudo nginx -t
+   17  sudo ln -s /etc/nginx/sites-available/default  /etc/nginx/sites-enabled
+   18  sudo ls -la /etc/nginx/sites-available 
+   19  ls -l
+   20  ls -l sites-enabled
+   21  ls
+   22  ls -la sites-enabled
+   23  sysctl
+   24  sysctl restart nginx
+   25  systemctl restart nginx
+   26  systemctl stop nginx
+   27  systemctl status nginx
+   28  systmectl restart nginx
+   29  systemctl restart nginx
+   30  systemctl start nginx
+   31  systemctl status nginx
+   32  systemctl status nginx
+   33  exit
+   34  cd /
+   35  ls
+   36  cd home 
+   37  ls
+   38  cd linuxuser
+   39  ls
+   40  l
+   41  git 
+   42  apt-get install git
+   43  git 
+   44  git add 
+   45  sudo apt update 
+   46  sudp apt install ufw 
+   47  apt install ufw 
+   48  ufw status 
+   49  ls
+   50  mkdir git && cd git 
+   51  git clone https://github.com/michealzs/serviceStore.git
+   52  ls
+   53  pip
+   54  ls
+   55  cd serviceStore
+   56  ls
+   57  ls agency
+   58  virtualevn 
+   59  virtualevnv
+   60  virtualenv
+   61  pip install virtualenv
+   62  pip3 install virtualenv
+   63  pip3
+   64  pip3 install virtualenv
+   65  python -m pip install virtualenv
+   66  python
+   67  apt install python
+   68  python3
+   69  python3 -m pip install virtualenv
+   70  python3 -m pip3 install virtualenv
+   71  apt search virtualenv
+   72  apt install virtualenv
+   73  ls
+   74  cd agency 
+   75  virtualenv storeenv
+   76  ls
+   77  cd settings 
+   78  ls
+   79  touch env.py
+   80  nano env.py
+   81  ls
+   82  cd ..
+   83  ls
+   84  source storeenv/bin/activate
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd agency
+   89  python manage.py runserver
+   90  ls
+   91  pip install -r requirements.txt
+   92  ls
+   93  python manage.py runserver
+   94  python manage.py runserver
+   95  apt install nginx tmux
+   96  cd /etc/
+   97  ls
+   98  ls nginx
+   99  cat nginx.conf
+  100  ls -la
+  101  cd nginx
+  102  ls
+  103  ls -la
+  104  cat nginx.conf
+  105  ls
+  106  ls -la
+  107  ls sites-available
+  108  ls sites-available/default
+  109  ls -la sites-available/default
+  110  ls -la sites-available
+  111  cat sites-available/default
+  112  nano sites-available/default
+  113  tmux 
+  114  ls
+  115  pwd
+  116  ls /
+  117  ls /home
+  118  ls
+  119  pwd
+  120  git clone https://github.com/michealzs/serviceStore.git
+  121  ls
+  122  cd serviceStore
+  123  ls
+  124  cd agency 
+  125  ls
+  126  cd settings
+  127  ls
+  128  nano key.py
+  129  ls
+  130  nano env.py
+  131  cd ..
+  132  ls
+  133  sudo apt-get install virtualenv
+  134  ls
+  135  virtualenv storeenv
+  136  source storenv/bin/activate
+  137  ls
+  138  source storeenv/bin/activate
+  139  ls
+  140  pip -r install requirements.txt
+  141  pip install -r requirements.txt
+  142  ls
+  143  python manage.py runserver
+  144  history
+  145  ls
+  146  python manage.py runserver
+  147  python manage.py runserver &
+  148  jobs
+  149  fg 1
+  150  bg 1
+  151  jobs
+  152  fg %1
+  153  bg %1
+  154  jobs
+  155  ls
+  156  cd serviceStore
+  157  ls
+  158  cd agency
+  159  ls
+  160  source storeenv/bin/activate
+  161  python manage.py runserver &
+  162  jobs
+  163  jobs
+  164  ls
+  165  cd serviceStore
+  166  ls
+  167  cd agency 
+  168  ls
+  169  source storeenv/bin/activate
+  170  python manage.py runserver &
+  171  jobs
+  172  python manage.py runserver
+  173  ss -tulnp
+  174  kill 7443
+  175  ss -tulnp
+  176  python manage.py runserver
+  177  jobs
+  178  bg 1
+  179  jobs
+  180  jobs
+  181  ls
+  182  ls
+  183  git clone https://github.com/michealzs/ecomstore.git
+  184  git clone https://github.com/michealzs/ecomstore.git
+  185  ls
+  186  git clone https://github.com/michealzs/multiservice.git
+  187  git clone https://github.com/michealzs/multiservice.git
+  188  ls
+  189  ls ~
+  190  cd serviceStore
+  191  nano uwsgi.ini
+  192  tmux -h
+  193  tmux --help
+  194  tmux -T
+  195  tmux
+  196  man tmux
+  197  exit
+  198  ls /etc/systemd
+  199  cd system
+  200  cd /etc/systemd
+  201  ls
+  202  ls system
+  203  nano agency.service
+  204  ls -la /root/serviceStore
+  205  ls -la /root/serviceStore/agency
+  206  nano agency.service
+  207  tmux
+  208  tmux
+  209  ls
+  210  ls /var
+  211  ls /var/log
+  212  ls /var/log/
+  213  ls /var/log/nginx
+  214  ls /var/log/nginx/agence_error.log
+  215  cat /var/log/nginx/agence_error.log
+  216  cat /var/log/nginx/agency_error.log
+  217  cat /var/log/nginx/agency_error.log
+  218  cat /var/log/nginx
+  219  ls /var/log/nginx
+  220  cat /var/log/nginx/error.log
+  221  sudo tail -f /var/log/uwsgi/uwsgi.log
+  222  ls serviceStore
+  223  ls serviceStore/agency
+  224  nano serviceStore/agency/uwsgi.ini
+  225  sudo systemctl daemon-reload
+  226  sudo systemctl daemon-reload
+  227  sudo systemctl restart agency
+  228  sudo systemctl status
+  229  sudo systemctl status
+  230  uwsgi
+  231  ls
+  232  source storeenv/bin/activate
+  233  uwsgi
+  234  ls
+  235  pwd
+  236  $a = $pwd
+  237  $a = pwd
+  238  uwsgi --ini /root/serviceStore/agency
+  239  uwsgi --ini /root/serviceStore/agency/uwsgi.ini
+  240  ls -l /run/uwsgi/agency.sock
+  241  ls
+  242  nano uwsgi.ini
+  243  uwsgi --ini /path/to/your/project/uwsgi.ini
+  244  ls
+  245  uwsgi --ini /root/serviceStore/agency/uwsgi.ini
+  246  nano uwsgi.ini
+  247  sudo nano /etc/systemd/system/agency.service
+  248  sudo nano /etc/systemd/system/agency.service
+  249  ls -l /run/uwsgi/agency.sock
+  250  nano uwsgi.ini
+  251  sudo nano /etc/systemd/system/agency.service
+  252  ls -l /run/uwsgi/agency.sock
+  253  history >> ~/history.txt
+    1  ls-la
+    2  ls -la
+    3  apt install tree
+    4  ls -la
+    5  apt install tldr
+    6  tldr tree
+    7  tree -d
+    8  tree -d sites-available
+    9  tree site-available
+   10  tree sites-available
+   11  nano sites-available/default
+   12  nano sites-available/default
+   13  ls
+   14  sudo ln -s /etc/nginx/sites-available/server_ip.conf  /etc/nginx/sites-enabled
+   15  sudo ln -s /etc/nginx/sites-available/server_ip.conf  /etc/nginx/sites-enabled/
+   16  sudo nginx -t
+   17  sudo ln -s /etc/nginx/sites-available/default  /etc/nginx/sites-enabled
+   18  sudo ls -la /etc/nginx/sites-available 
+   19  ls -l
+   20  ls -l sites-enabled
+   21  ls
+   22  ls -la sites-enabled
+   23  sysctl
+   24  sysctl restart nginx
+   25  systemctl restart nginx
+   26  systemctl stop nginx
+   27  systemctl status nginx
+   28  systmectl restart nginx
+   29  systemctl restart nginx
+   30  systemctl start nginx
+   31  systemctl status nginx
+   32  systemctl status nginx
+   33  exit
+   34  cd /
+   35  ls
+   36  cd home 
+   37  ls
+   38  cd linuxuser
+   39  ls
+   40  l
+   41  git 
+   42  apt-get install git
+   43  git 
+   44  git add 
+   45  sudo apt update 
+   46  sudp apt install ufw 
+   47  apt install ufw 
+   48  ufw status 
+   49  ls
+   50  mkdir git && cd git 
+   51  git clone https://github.com/michealzs/serviceStore.git
+   52  ls
+   53  pip
+   54  ls
+   55  cd serviceStore
+   56  ls
+   57  ls agency
+   58  virtualevn 
+   59  virtualevnv
+   60  virtualenv
+   61  pip install virtualenv
+   62  pip3 install virtualenv
+   63  pip3
+   64  pip3 install virtualenv
+   65  python -m pip install virtualenv
+   66  python
+   67  apt install python
+   68  python3
+   69  python3 -m pip install virtualenv
+   70  python3 -m pip3 install virtualenv
+   71  apt search virtualenv
+   72  apt install virtualenv
+   73  ls
+   74  cd agency 
+   75  virtualenv storeenv
+   76  ls
+   77  cd settings 
+   78  ls
+   79  touch env.py
+   80  nano env.py
+   81  ls
+   82  cd ..
+   83  ls
+   84  source storeenv/bin/activate
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd agency
+   89  python manage.py runserver
+   90  ls
+   91  pip install -r requirements.txt
+   92  ls
+   93  python manage.py runserver
+   94  python manage.py runserver
+   95  apt install nginx tmux
+   96  cd /etc/
+   97  ls
+   98  ls nginx
+   99  cat nginx.conf
+  100  ls -la
+  101  cd nginx
+  102  ls
+  103  ls -la
+  104  cat nginx.conf
+  105  ls
+  106  ls -la
+  107  ls sites-available
+  108  ls sites-available/default
+  109  ls -la sites-available/default
+  110  ls -la sites-available
+  111  cat sites-available/default
+  112  nano sites-available/default
+  113  tmux 
+  114  ls
+  115  pwd
+  116  ls /
+  117  ls /home
+  118  ls
+  119  pwd
+  120  git clone https://github.com/michealzs/serviceStore.git
+  121  ls
+  122  cd serviceStore
+  123  ls
+  124  cd agency 
+  125  ls
+  126  cd settings
+  127  ls
+  128  nano key.py
+  129  ls
+  130  nano env.py
+  131  cd ..
+  132  ls
+  133  sudo apt-get install virtualenv
+  134  ls
+  135  virtualenv storeenv
+  136  source storenv/bin/activate
+  137  ls
+  138  source storeenv/bin/activate
+  139  ls
+  140  pip -r install requirements.txt
+  141  pip install -r requirements.txt
+  142  ls
+  143  python manage.py runserver
+  144  history
+  145  ls
+  146  python manage.py runserver
+  147  python manage.py runserver &
+  148  jobs
+  149  fg 1
+  150  bg 1
+  151  jobs
+  152  fg %1
+  153  bg %1
+  154  jobs
+  155  ls
+  156  cd serviceStore
+  157  ls
+  158  cd agency
+  159  ls
+  160  source storeenv/bin/activate
+  161  python manage.py runserver &
+  162  jobs
+  163  jobs
+  164  ls
+  165  cd serviceStore
+  166  ls
+  167  cd agency 
+  168  ls
+  169  source storeenv/bin/activate
+  170  python manage.py runserver &
+  171  jobs
+  172  python manage.py runserver
+  173  ss -tulnp
+  174  kill 7443
+  175  ss -tulnp
+  176  python manage.py runserver
+  177  jobs
+  178  bg 1
+  179  jobs
+  180  jobs
+  181  ls
+  182  ls
+  183  git clone https://github.com/michealzs/ecomstore.git
+  184  git clone https://github.com/michealzs/ecomstore.git
+  185  ls
+  186  git clone https://github.com/michealzs/multiservice.git
+  187  git clone https://github.com/michealzs/multiservice.git
+  188  ls
+  189  ls ~
+  190  cd serviceStore
+  191  nano uwsgi.ini
+  192  tmux -h
+  193  tmux --help
+  194  tmux -T
+  195  tmux
+  196  man tmux
+  197  exit
+  198  ls /etc/systemd
+  199  cd system
+  200  cd /etc/systemd
+  201  ls
+  202  ls system
+  203  nano agency.service
+  204  ls -la /root/serviceStore
+  205  ls -la /root/serviceStore/agency
+  206  nano agency.service
+  207  tmux
+  208  tmux
+  209  ls
+  210  ls /var
+  211  ls /var/log
+  212  ls /var/log/
+  213  ls /var/log/nginx
+  214  ls /var/log/nginx/agence_error.log
+  215  cat /var/log/nginx/agence_error.log
+  216  cat /var/log/nginx/agency_error.log
+  217  cat /var/log/nginx/agency_error.log
+  218  cat /var/log/nginx
+  219  ls /var/log/nginx
+  220  cat /var/log/nginx/error.log
+  221  sudo tail -f /var/log/uwsgi/uwsgi.log
+  222  ls serviceStore
+  223  ls serviceStore/agency
+  224  nano serviceStore/agency/uwsgi.ini
+  225  sudo systemctl daemon-reload
+  226  sudo systemctl daemon-reload
+  227  sudo systemctl restart agency
+  228  sudo systemctl status
+  229  sudo systemctl status
+  230  ls /run
+  231  sudo mkdir -p /run/uwsgi
+  232  sudo chown www-data:www-data /run/uwsgi
+  233  sudo tail -f /var/log/uwsgi/uwsgi.log
+  234  sudo chown -R root:www-data /run/uwsgi
+  235  ls /run/uwsgi
+  236  sudo chmod -R 755 /run/uwsgi
+  237  sudo systemctl daemon-reload sudo systemctl restart yourproject sudo systemctl restart nginx
+  238  sudo systemctl daemon-reload && sudo systemctl restart agency && sudo systemctl restart nginx
+  239  ls /run/uwsgi
+  240  ls /log/nginx
+  241  ls /log
+  242  ls /var/log/nginx
+  243  cat /var/log/nginx/agency_error.log
+  244  sudo tail -f /var/log/uwsgi/uwsgi.log
+  245  sudo tail -f /var/log/uwsgi/uwsgi.log
+  246  sudo systemctl daemon-reload
+  247  sudo systemctl restart agency
+  248  sudo systemctl status agency
+  249  sudo systemctl enable agency
+  250  sudo systemctl status agency
+  251  ls -l /run/uwsgi/agency.sock
+  252  sudo systemctl reload nginx
+  253  sudo tail -f /var/log/uwsgi/uwsgi.log
+  254  ls
+  255  ls settings
+  256  cat settings/wsgi
+  257  cat settings/wsgi.py
+  258  ls settings
+  259  sudo systemctl daemon-reload
+  260  sudo systemctl start agency
+  261  sudo systemctl start agency
+  262  sudo systemctl status agency
+  263  ls /etc/nginx
+  264  nano /etc/nginx/sites-available
+  265  ls /etc/nginx/sites-available
+  266  nano /etc/nginx/sites-available/default
+  267  nano /etc/nginx/sites-available/default
+  268  sudo systemctl reload nginx
+  269  sudo tail -f /var/log/uwsgi/uwsgi.log
+  270  cat /var/log/nginx/agency_error.log
+  271  sudo systemctl daemon-reload
+  272  sudo systemctl restart agency
+  273  history >> ~/history.txt

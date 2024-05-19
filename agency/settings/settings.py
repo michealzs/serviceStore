@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "America/New_York"
 
 USE_I18N = True
 
@@ -117,16 +117,32 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "templates/assets/"),
-]
-# BASE_DIR / "static"
-# FRONT_END_DIR / "dist" / "assets",
-STATIC_ROOT = os.path.join(BASE_DIR, '/templates/assets/')
-STATIC_URL = "/templates/assets/"
-MEDIA_ROOT = os.path.join(BASE_DIR, '/templates/assets/images')
-#STATIC_URL = "/templates/assets/images"
+
+#STATICFILES_DIRS = [
+#    os.path.join(BASE_DIR, "templates/assets/"),
+#]
+
+
+#STATIC_ROOT = os.path.join(BASE_DIR, '/templates/assets/')
+#STATIC_URL = "/templates/assets/"
+#MEDIA_ROOT = os.path.join(BASE_DIR, '/templates/assets/images')
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/4.2/howto/static-files/
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'templates/assets/'),
+]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'templates/assets/images')
+
+
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"

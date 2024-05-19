@@ -18,3 +18,13 @@ sqlparse==0.4.4
 stripe==5.4.0
 urllib3==1.26.15
 python-dotenv==1.0.1
+uwsgi
+gunicorn
+djangorestframework
+python-dotenv
+gunicorn
+whitenoise
+Brotli
+dj-database-url
+psycopg2
+django-extensions
