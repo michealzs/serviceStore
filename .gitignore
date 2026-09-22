@@ -5,7 +5,6 @@
 .DS_Store
 
 # Ignore build directories
-/.github/
 
 # Ignore log files
 *.log
